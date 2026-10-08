@@ -1,0 +1,29 @@
+name: Update feeds
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 每天台灣時間 06:00
+    - cron: "0 5 * * *"    # 每天台灣時間 13:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 抓取全聯會公告
+        run: python scripts/fetch_twtm.py > raw/run.log 2>&1 || (cat raw/run.log; exit 1)
+      - name: 有變動才提交
+        run: |
+          tail -3 raw/run.log
+          git config user.name "tcm-pocket-feed bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs raw
+          git diff --cached --quiet && echo "沒有新公告" || git commit -m "更新公告 $(date -u +'%Y-%m-%d %H:%M') UTC" && git push

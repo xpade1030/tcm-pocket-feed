@@ -14,7 +14,18 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs/notices.json"
 RAW = ROOT / "raw"
 BASE = "https://twtm.tw/"   # www.twtm.tw 憑證有問題，用無 www 網域
-CATS = {"1": "大眾最新消息", "16": "新聞稿", "30": "法規專區", "76": "會務快訊", "53": "中醫點值結算說明", "69": "下載專區"}
+# (頁面, 分類代號, 分類名稱)。公告區 new.php；專案計畫專區 project.php（2026-10-08 加入，作者認為最該著重）
+SOURCES = [("new", "1", "大眾最新消息"), ("new", "16", "新聞稿"), ("new", "30", "法規專區"), ("new", "76", "會務快訊"),
+           ("new", "53", "中醫點值結算說明"), ("new", "69", "下載專區"),
+           ("project", "103", "專案：健保署公告名單、六區課程通知"), ("project", "116", "專案：上課名單查詢"),
+           ("project", "115", "專案：三高"), ("project", "90", "專案：品質保證保留款院所名單"),
+           ("project", "65", "專案：感控暨針灸標準 SOP"), ("project", "86", "專案：照護機構中醫醫療照護"),
+           ("project", "51", "專案：第八章特定疾病門診加強照護"), ("project", "83", "專案：中藥用藥安全"),
+           ("project", "50", "專案：醫療資源不足地區"), ("project", "44", "專案：西醫住院中醫輔助醫療"),
+           ("project", "54", "專案：癌症加強照護整合"), ("project", "73", "專案：急症處置"),
+           ("project", "45", "專案：孕產照護"), ("project", "78", "專案：慢性腎臟病"),
+           ("project", "74", "專案：居家醫療照護整合"), ("project", "46", "專案：其他表單下載")]
+CATS = {f"{pg}:{c}": n for pg, c, n in SOURCES}
 PAGES = 10         # 每類抓前幾頁（每頁約 5 則）
 KEEP = 150         # 每類最多保留幾則
 UA = "Mozilla/5.0 (compatible; tcm-pocket-feed/1.0; +https://github.com/xpade1030/tcm-pocket-feed)"
@@ -56,16 +67,16 @@ def text_of(fragment):
     return "\n".join(out).strip()
 
 
-NAV_LINK = re.compile(r"^https://twtm\.tw/new\.php\?cat=\d+$")   # 內頁底部「回列表」
+NAV_LINK = re.compile(r"^https://twtm\.tw/(new|project)\.php\?cat=\d+$")   # 內頁底部「回列表」
 
 
 def clean_atts(atts):
     return [a for a in atts if not NAV_LINK.match(a["url"])]
 
 
-def parse_list(page_html, cat):
+def parse_list(page_html, cat, pg="new"):
     items = []
-    for nid, inner in re.findall(rf'href="new\.php\?cat={cat}&(?:amp;)?id=(\d+)"[^>]*>(.*?)</a>', page_html, re.S):
+    for nid, inner in re.findall(rf'href="{pg}\.php\?cat={cat}&(?:amp;)?id=(\d+)"[^>]*>(.*?)</a>', page_html, re.S):
         t = text_of(inner)
         m = re.match(r"(\d{4}-\d{2}-\d{2})\s*(?:\[[^\]]*\])?\s*(.*)", t, re.S)
         if m:
@@ -113,11 +124,11 @@ def main():
     log.info("既有公告 %d 則", len(old))
 
     notices, new_count = {}, 0
-    for cat, cname in CATS.items():
+    for pg, cat, cname in SOURCES:
         listed = []
         for p in range(1, PAGES + 1):
-            page = get(f"{BASE}new.php?p={p}&cat={cat}")
-            items = parse_list(page, cat)
+            page = get(f"{BASE}{pg}.php?p={p}&cat={cat}")
+            items = parse_list(page, cat, pg)
             log.info("[%s] 第 %d 頁 %d 則", cname, p, len(items))
             if not items:
                 break
@@ -127,11 +138,11 @@ def main():
             if it["id"] in old and old[it["id"]].get("body") is not None:
                 n = old[it["id"]]
             else:
-                d = parse_detail(get(f"{BASE}new.php?cat={cat}&id={it['id']}"))
-                n = {"id": it["id"], "category": cname, "cat": cat,
+                d = parse_detail(get(f"{BASE}{pg}.php?cat={cat}&id={it['id']}"))
+                n = {"id": it["id"], "category": cname, "cat": cat, "section": "專案計畫專區" if pg == "project" else "公告",
                      "title": d["title"] or it["title"], "date": it["date"] or (d["time"] or "")[:10],
                      "time": d["time"], "body": d["body"], "attachments": d["attachments"],
-                     "url": f"{BASE}new.php?cat={cat}&id={it['id']}"}
+                     "url": f"{BASE}{pg}.php?cat={cat}&id={it['id']}"}
                 new_count += 1
                 log.info("  新增 %s %s", n["date"], n["title"][:40])
                 time.sleep(0.6)
@@ -141,7 +152,7 @@ def main():
     lst = sorted(notices.values(), key=lambda n: (n.get("time") or n.get("date") or "", int(n["id"])), reverse=True)
     out = {"source": "中華民國中醫師公會全國聯合會 https://twtm.tw/",
            "updated": datetime.now(TW).strftime("%Y-%m-%d %H:%M"),
-           "categories": list(CATS.values()), "notices": lst}
+           "categories": [n for _, _, n in SOURCES], "notices": lst}
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (RAW / "last-run.txt").write_text(f"{out['updated']} 共 {len(lst)} 則，新增 {new_count} 則\n", encoding="utf-8")

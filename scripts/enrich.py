@@ -8,6 +8,7 @@
 - raw/enrich-log.txt：每則的判定與被清掉的欄位
 """
 import argparse, hashlib, json, logging, re, subprocess, sys, time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -18,6 +19,9 @@ OUT = ROOT / "docs/digest.json"
 LOG = ROOT / "raw/enrich-log.txt"
 TW = timezone(timedelta(hours=8))
 MODEL = "haiku"
+WINDOW_DAYS = 456          # 只整理、只發佈近 15 個月的公告
+WORKERS = 4                # 同時呼叫 AI 的數量
+LIST_RE = re.compile(r"名單|名冊")   # 承作／受訓名單：不花 AI，用規則整理
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("enrich")
@@ -115,6 +119,42 @@ def verify(d, source_text, notes):
     return d
 
 
+def list_digest(n):
+    """名單公告：一句話＋原文連結"""
+    proj = n["category"].replace("專案：", "") if n["category"].startswith("專案：") else None
+    return {"kind": "list", "topics": ["nhi"], "hidden": False,
+            "title": re.sub(r"^(公告～|公告~)", "", n["title"]).strip()[:40],
+            "points": ["本期承作／受訓名單已公布，可至原文查詢自己或院所是否在列。"],
+            "project": proj, "audience": None, "action": None, "deadline": None, "effective": None, "course": None}
+
+
+def build_prompt(n):
+    links = "\n".join(f"- {a['label']}：{a['url']}" for a in (n.get("attachments") or [])) or "（無）"
+    prompt = PROMPT.replace("{category}", n["category"]).replace("{date}", n.get("date") or "") \
+        .replace("{title}", n["title"]).replace("{body}", (n.get("body") or "（無內文，只有附件）")[:5000]).replace("{links}", links)
+    return prompt, n["title"] + "\n" + (n.get("body") or "") + "\n" + links
+
+
+def enrich_one(n):
+    prompt, source = build_prompt(n)
+    try:
+        d, c = call_claude(prompt)
+    except Exception as e:
+        log.warning("[%s] 失敗：%s", n["id"], e)
+        return n, None, [], 0
+    notes = []
+    return n, verify(d, source, notes), notes, c or 0
+
+
+def course_expired(c, today):
+    """課程所有日期（含各場次與報名截止）都已過 → 過期"""
+    if not isinstance(c, dict):
+        return False
+    dates = [c.get("end"), c.get("start"), c.get("registerDeadline")] + [x.get("date") for x in (c.get("sessions") or []) if isinstance(x, dict)]
+    dates = [x for x in dates if x]
+    return bool(dates) and max(dates) < today
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0, help="最多處理幾則新公告（0＝不限）")
@@ -122,48 +162,63 @@ def main():
     args = ap.parse_args()
     notices = json.loads(SRC.read_text(encoding="utf-8"))["notices"]
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
+    now = datetime.now(TW)
+    today = now.strftime("%Y-%m-%d")
+    since = (now - timedelta(days=WINDOW_DAYS)).strftime("%Y-%m-%d")
     want = set(filter(None, args.ids.split(",")))
+    recent = [n for n in notices if (n.get("date") or "") >= since]
     LOG.parent.mkdir(exist_ok=True)
-    logf = LOG.open("a", encoding="utf-8")
-    done, cost = 0, 0.0
-    for n in notices:
+
+    todo = []
+    for n in recent:
         if want and n["id"] not in want:
             continue
         key = f"{n['id']}:{body_hash(n)}"
         if key in cache:
             continue
-        if args.limit and done >= args.limit:
-            break
-        links = "\n".join(f"- {a['label']}：{a['url']}" for a in (n.get("attachments") or [])) or "（無）"
-        prompt = PROMPT.replace("{category}", n["category"]).replace("{date}", n.get("date") or "") \
-            .replace("{title}", n["title"]).replace("{body}", (n.get("body") or "（無內文，只有附件）")[:5000]).replace("{links}", links)
-        try:
-            d, c = call_claude(prompt)
-        except Exception as e:
-            log.warning("[%s] 失敗：%s", n["id"], e)
+        if LIST_RE.search(n["title"]) and "課程" not in n["title"]:
+            cache[key] = list_digest(n)
             continue
-        notes = []
-        d = verify(d, n["title"] + "\n" + (n.get("body") or "") + "\n" + links, notes)
-        cache[key] = d
-        done += 1
-        cost += c or 0
-        tag = ",".join(d.get("topics") or []) + ("（隱藏）" if d.get("hidden") else "")
-        log.info("[%s] %s｜%s %s", n["id"], tag, d.get("title"), "；".join(notes))
-        logf.write(f"{datetime.now(TW):%F %T}\t{n['id']}\t{tag}\t{d.get('title')}\t{'；'.join(notes)}\n")
-        CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
-        time.sleep(0.5)
+        todo.append(n)
+    if args.limit:
+        todo = todo[:args.limit]
+    log.info("近 15 個月 %d 則；待 AI 整理 %d 則", len(recent), len(todo))
 
-    # 組 digest：原文欄位＋AI 整理（沒整理過的先標 pending，App 照原標題顯示）
-    out = []
-    for n in notices:
+    cost = 0.0
+    with ThreadPoolExecutor(WORKERS) as ex, LOG.open("a", encoding="utf-8") as logf:
+        for n, d, notes, c in ex.map(enrich_one, todo):
+            if d is None:
+                continue
+            cache[f"{n['id']}:{body_hash(n)}"] = d
+            cost += c
+            tag = ",".join(d.get("topics") or []) + ("（隱藏）" if d.get("hidden") else "")
+            log.info("[%s] %s｜%s %s", n["id"], tag, d.get("title"), "；".join(notes))
+            logf.write(f"{datetime.now(TW):%F %T}\t{n['id']}\t{tag}\t{d.get('title')}\t{'；'.join(notes)}\n")
+            CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    # digest：近 15 個月、未隱藏、課程未過期；附年度計畫新舊版比對
+    diffs = json.loads((ROOT / "docs/plan-diffs.json").read_text(encoding="utf-8")) if (ROOT / "docs/plan-diffs.json").exists() else {}
+    out, dropped = [], {"hidden": 0, "expired": 0}
+    for n in recent:
         e = cache.get(f"{n['id']}:{body_hash(n)}")
-        out.append({"id": n["id"], "category": n["category"], "date": n.get("date"), "url": n["url"],
-                    "origTitle": n["title"], "attachments": n.get("attachments") or [],
-                    "ai": e, "status": "ok" if e else "pending"})
-    OUT.write_text(json.dumps({"updated": datetime.now(TW).strftime("%Y-%m-%d %H:%M"), "items": out},
+        if e and e.get("hidden"):
+            dropped["hidden"] += 1
+            continue
+        if e and course_expired(e.get("course"), today):
+            dropped["expired"] += 1
+            continue
+        item = {"id": n["id"], "category": n["category"], "section": n.get("section") or "公告", "date": n.get("date"),
+                "url": n["url"], "origTitle": n["title"], "attachments": n.get("attachments") or [],
+                "ai": e, "status": "ok" if e else "pending"}
+        if n["id"] in diffs:
+            dd = diffs[n["id"]]
+            item["planDiff"] = {k: dd[k] for k in ("summary", "changes", "oldTitle", "oldUrl") if k in dd}
+        out.append(item)
+    OUT.write_text(json.dumps({"updated": now.strftime("%Y-%m-%d %H:%M"), "items": out},
                               ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    log.info("本次整理 %d 則，估計花費 US$%.4f；digest 共 %d 則（待整理 %d）", done, cost, len(out),
-             sum(1 for x in out if x["status"] == "pending"))
+    log.info("本次 AI 整理 %d 則（估計 US$%.3f）；digest %d 則（隱藏 %d、過期課程 %d、待整理 %d）",
+             len(todo), cost, len(out), dropped["hidden"], dropped["expired"], sum(1 for x in out if x["status"] == "pending"))
 
 
 if __name__ == "__main__":

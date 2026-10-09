@@ -37,66 +37,6 @@
   "effective": null,
   "course": null
  },
- "4185:d123be56317e": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "初次認證指導教師課程報名開放至10/1",
-  "points": [
-   "限初次申請或需展延認證資格的指導教師報名，115年度推薦通過者無須報名",
-   "線上課程9月24日～10月31日開放，非直播形式，自行分配時間完成7小時課程",
-   "報名截止10月1日，完成課程後需於10月31日前申請師資認證",
-   "課程無繼續教育積分，完成課程不等同獲得指導教師認證"
-  ],
-  "audience": "初次申請或需重新認證的臨床醫學/中藥學指導教師",
-  "action": "於10/1前填表報名，線上完成課程，10/31前提出師資認證申請",
-  "deadline": "2026-10-01",
-  "effective": null,
-  "course": {
-   "name": "115年度初次認證臨床醫學/中藥學指導教師課程",
-   "organizer": "台灣中醫醫學教育學會",
-   "start": "2026-09-24",
-   "end": "2026-10-31",
-   "time": "自行安排（非直播形式）",
-   "location": "線上",
-   "online": true,
-   "credits": null,
-   "fee": null,
-   "registerUrl": "https://forms.gle/r9wp85wFFuNwWbzQ6",
-   "registerDeadline": "2026-10-01"
-  }
- },
- "4189:026438e7a226": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "初次認證師資7小時培訓課程開放上課",
-  "points": [
-   "課程已於9月24日開放，登入指定平台即可開始觀看。",
-   "須於10月31日前完成課程觀看及學習紀錄。",
-   "附件含平台登入帳密，請務必詳閱使用說明。",
-   "10月將公告初次認證申請辦法，屆時留意學會官網。"
-  ],
-  "audience": "預計初次認證的中醫師",
-  "action": "登入平台於10月31日前完成7小時課程觀看與學習紀錄",
-  "deadline": "2026-10-31",
-  "effective": null,
-  "course": {
-   "name": "初次認證師資培訓課程（7小時）",
-   "organizer": "台灣中醫醫學教育學會",
-   "start": "2026-09-24",
-   "end": "2026-10-31",
-   "time": null,
-   "location": null,
-   "online": true,
-   "credits": "初次認證師資培訓7小時",
-   "fee": null,
-   "registerUrl": "https://taecm.tibamebiz.com/login",
-   "registerDeadline": "2026-10-31"
-  }
- },
  "4169:d0702094c4b4": {
   "topics": [
    "policy"
@@ -242,344 +182,6 @@
   "deadline": null,
   "effective": "2025-08-01",
   "course": null
- },
- "4192:f51bfff48a60": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "北區3高中醫師繼續教育課程",
-  "points": [
-   "11月22日09:00-17:00在桃園市中醫師公會教育會館舉辦影音課程。",
-   "報名截止10月31日，費用1,000元，並可認證『負責醫師基本訓練課程學時』。",
-   "分別認證醫務行政2.5、衛生政策2.5、實證醫學1.5學時，但無繼續教育學分。",
-   "已參加過此課程者毋須重複報名。"
-  ],
-  "audience": "北區中醫師",
-  "action": "於10月31日前報名並繳費1,000元",
-  "deadline": "2026-10-31",
-  "effective": null,
-  "course": {
-   "name": "3高中醫師繼續教育課程培訓",
-   "organizer": "中華民國中醫師公會全國聯合會",
-   "start": "2026-11-22",
-   "end": "2026-11-22",
-   "time": "09:00-17:00",
-   "location": "桃園市中醫師公會教育會館",
-   "online": false,
-   "credits": "可認證『負責醫師基本訓練課程學時』：醫務行政2.5、衛生政策2.5、實證醫學1.5",
-   "fee": "1,000元",
-   "registerUrl": "https://forms.gle/7uB38Ho3iGByndYV7",
-   "registerDeadline": "2026-10-31",
-   "regions": [
-    "北區"
-   ],
-   "project": "3高",
-   "sessions": null
-  }
- },
- "4060:58308ef5022c": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "三高病人加強照護課程—全國六區開課訊息",
-  "points": [
-   "中華民國中醫師公會全國聯合會各分會辦理三高病人加強照護中醫師課程。",
-   "各分會分別於115年4月至11月開課，課程時間與報名方式因區而異。",
-   "課程可申請繼續教育學分或基本訓練課程學時，報名費500～1000元。",
-   "各區報名截止日期不同，額滿提前截止，需依報名場次參加。"
-  ],
-  "audience": "參加三高試辦計畫或需繼續教育的中醫師",
-  "action": "查看所在區別開課日期及報名方式，於截止前完成線上或電話報名。",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "三高病人加強照護課程",
-   "organizer": "中華民國中醫師公會全國聯合會各分會",
-   "start": null,
-   "end": null,
-   "time": null,
-   "location": null,
-   "online": null,
-   "credits": "繼續教育學分或基本訓練課程學時（依各區課程而異）",
-   "fee": "500～1000元",
-   "registerUrl": null,
-   "registerDeadline": null,
-   "regions": [
-    "台北區",
-    "北區",
-    "南區",
-    "高屏區",
-    "東區"
-   ],
-   "project": "三高",
-   "sessions": [
-    {
-     "region": "台北區",
-     "date": "2026-07-05",
-     "time": "08:30-17:30",
-     "location": "台北市中醫師公會"
-    },
-    {
-     "region": "台北區",
-     "date": "2026-08-16",
-     "time": "08:30-17:30",
-     "location": "台北市中醫師公會"
-    },
-    {
-     "region": "北區",
-     "date": "2026-11-22",
-     "time": "09:00-17:00",
-     "location": "桃園市中醫師公會教育會館"
-    },
-    {
-     "region": "南區",
-     "date": "2026-04-26",
-     "time": "08:30-17:00",
-     "location": "奇美醫院 第五醫療大樓 國際會議廳"
-    },
-    {
-     "region": "高屏區",
-     "date": "2026-07-15",
-     "time": "09:00-16:50",
-     "location": "高雄市中醫師公會會館"
-    },
-    {
-     "region": "高屏區",
-     "date": "2026-07-16",
-     "time": "09:00-16:50",
-     "location": "高雄市中醫師公會會館"
-    },
-    {
-     "region": "高屏區",
-     "date": "2026-07-19",
-     "time": "09:00-16:50",
-     "location": "高雄市中醫師公會會館"
-    },
-    {
-     "region": "東區",
-     "date": "2026-06-07",
-     "time": "08:30-17:00",
-     "location": "協力樓三樓 合心會議室"
-    },
-    {
-     "region": "東區",
-     "date": "2026-06-07",
-     "time": "08:30-17:00",
-     "location": "娜路彎大酒店二樓卑南會議廳"
-    }
-   ]
-  }
- },
- "4190:a5b5a757b0d1": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "高屏區特定門診西醫住院專案課程",
-  "points": [
-   "10/18在高雄中醫師公會會館辦上下午課程，上午特定門診、下午西醫住院",
-   "須線上報名，親至會館觀看影片，不受理現場報名",
-   "涵蓋特定疾病、癌症、腎臟病、孕產及中醫急症等內容",
-   "可申請負責醫師基本訓練課程學時"
-  ],
-  "audience": "高屏區想要承作特定門診、西醫住院專案的中醫師",
-  "action": "至報名網址線上報名，並親臨會館參加課程",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "特定門診與西醫住院專案影音課程",
-   "organizer": "中執會高屏區分會",
-   "start": "2026-10-18",
-   "end": "2026-10-18",
-   "time": "上午 9:00-12:30（8:30報到）、下午 13:30-17:00（13:00報到）",
-   "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
-   "online": false,
-   "credits": "可申請負責醫師基本訓練課程學時",
-   "fee": null,
-   "registerUrl": "https://reurl.cc/QNGW2Z",
-   "registerDeadline": null,
-   "regions": [
-    "高屏區"
-   ],
-   "project": "特定疾病門診加強照護、西醫住院輔助",
-   "sessions": null
-  }
- },
- "4186:4c5a8825dde5": {
-  "topics": [
-   "course",
-   "nhi"
-  ],
-  "hidden": false,
-  "title": "感染管控與針灸SOP暨性別議題研討會",
-  "points": [
-   "11月22日全天課程，中山醫學大學正心樓，線上線下並行，實體限90名",
-   "學習感染控制與針灸SOP各6小時，取得繼續教育8點(感控3點、品質3點、性別1點、專業1點)及負責醫師基本訓練8小時認證",
-   "實體課程$1,000-1,800元、線上課程$800-1,600元，差異在於是否申請繼續教育積分",
-   "11月13日截止報名，使用Google表單報名，不受理現場報名繳費"
-  ],
-  "audience": "中醫師",
-  "action": "於11月13日前透過Google表單報名課程",
-  "deadline": "2026-11-13",
-  "effective": null,
-  "course": {
-   "name": "中醫院所感染管控與針灸SOP暨性別議題研討會",
-   "organizer": null,
-   "start": "2026-11-22",
-   "end": "2026-11-22",
-   "time": "08:30-17:00(08:00開始報到)",
-   "location": "中山醫學大學正心樓0213教室(臺中市南區建國北路一段110號)",
-   "online": true,
-   "credits": "感染控制計畫課程6學時、針灸標準作業程序課程6學時；繼續教育8點(感控3點、品質3點、性別1點、專業1點)；負責醫師基本訓練8學時(感染控制3小時、醫學倫理/醫學法規1小時、衛生政策1小時、醫療品質2小時、實證醫學1小時)",
-   "fee": "實體課程$1,000-1,800元；線上課程$800-1,600元",
-   "registerUrl": "https://forms.gle/x2eXmyhLFwGuNwg3A",
-   "registerDeadline": "2026-11-13",
-   "regions": null,
-   "project": "感控暨針灸SOP",
-   "sessions": null
-  }
- },
- "3170:57698ac385ac": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "115年居家醫療照護整合培訓課程六區時間表",
-  "points": [
-   "六區課程採影音課程，現場看影片，時間地點各異，報名費500～800元。",
-   "課程無繼續教育點數，惟可申請「負責醫師基本訓練課程學時」認證。",
-   "各區報名截止日期及網址不同，已修習過課程的醫師不需再報名。"
-  ],
-  "audience": null,
-  "action": "選擇所在地區，於截止前報名繳費參加課程。",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "居家醫療照護整合培訓課程",
-   "organizer": "中華民國中醫師公會全國聯合會",
-   "start": "2026-03-15",
-   "end": "2026-10-18",
-   "time": null,
-   "location": null,
-   "online": false,
-   "credits": "無繼續教育點數；可申請負責醫師基本訓練課程學時（衛生政策2學時、醫療行政2學時）",
-   "fee": null,
-   "registerUrl": null,
-   "registerDeadline": null,
-   "regions": [
-    "台北區",
-    "北區",
-    "中區",
-    "南區",
-    "高屏區"
-   ],
-   "project": "居家醫療照護整合",
-   "sessions": [
-    {
-     "region": "台北區",
-     "date": "2026-06-07",
-     "time": "13:00-17:00",
-     "location": "台北市中醫師公會"
-    },
-    {
-     "region": "北區",
-     "date": "2026-10-18",
-     "time": "09:00-12:40",
-     "location": "桃園市中醫師公會教育會館"
-    },
-    {
-     "region": "中區",
-     "date": "2026-03-29",
-     "time": "09:00-13:10",
-     "location": "臺中市中醫師公會"
-    },
-    {
-     "region": "中區",
-     "date": "2026-09-20",
-     "time": "09:00-13:10",
-     "location": "臺中市中醫師公會"
-    },
-    {
-     "region": "南區",
-     "date": "2026-03-15",
-     "time": "08:30-12:20",
-     "location": "台南市中醫師公會2樓會議室"
-    },
-    {
-     "region": "南區",
-     "date": "2026-08-23",
-     "time": "08:30-12:20",
-     "location": "台南市中醫師公會2樓會議室"
-    },
-    {
-     "region": "高屏區",
-     "date": "2026-09-14",
-     "time": "13:30-17:30",
-     "location": "高雄市中醫師公會會館"
-    }
-   ]
-  }
- },
- "4176:2df5c8ff4602": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "東區分會四場健保專案課程",
-  "points": [
-   "四場課程涵蓋居家照護、用藥安全、特定門診、西醫住院。",
-   "分別於9月20日和10月4日在花蓮舉辦。",
-   "線上報名表單，當天現場繳費500元/場，限15人。"
-  ],
-  "audience": "東區中醫師",
-  "action": "於報名表單報名並當天現場繳費",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "居家照護、中藥用藥安全、特定門診、西醫住院課程",
-   "organizer": "中醫師公會全國聯合會東區分會",
-   "start": "2026-09-20",
-   "end": "2026-10-04",
-   "time": "09:10-17:00（分四場次）",
-   "location": "花蓮市林森路236之27號7樓",
-   "online": false,
-   "credits": null,
-   "fee": "500元/場",
-   "registerUrl": "https://forms.gle/SzNvb8MUsdW8sWW48",
-   "registerDeadline": null,
-   "regions": [
-    "東區"
-   ],
-   "project": null,
-   "sessions": [
-    {
-     "region": "東區",
-     "date": "2026-09-20",
-     "time": "09:10-12:40（居家照護，09:00報到）",
-     "location": "花蓮市林森路236之27號7樓"
-    },
-    {
-     "region": "東區",
-     "date": "2026-09-20",
-     "time": "13:10-15:10（中藥用藥安全，13:00報到）",
-     "location": "花蓮市林森路236之27號7樓"
-    },
-    {
-     "region": "東區",
-     "date": "2026-10-04",
-     "time": "09:10-12:40（特定門診，09:00報到）",
-     "location": "花蓮市林森路236之27號7樓"
-    },
-    {
-     "region": "東區",
-     "date": "2026-10-04",
-     "time": "13:30-17:00（西醫住院，13:20報到）",
-     "location": "花蓮市林森路236之27號7樓"
-    }
-   ]
-  }
  },
  "2524:243eddb25787": {
   "kind": "list",
@@ -1226,41 +828,6 @@
   "effective": null,
   "course": null
  },
- "4182:80f026f11508": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "提升教師教學技能培育課程開放上課",
-  "points": [
-   "課程已開放至2026年10月31日，學員可登入平台上課。",
-   "已報名者依通知信附之帳號密碼登入平台上課。",
-   "部分學員尚未收到通知信，學會將於隔日繼續寄送。",
-   "未收到通知信者請耐心等候，稍後仍未收到可聯繫學會。"
-  ],
-  "audience": "已報名並通過資格確認之學員",
-  "action": "登入平台上課；未收到通知信請等候或聯繫學會",
-  "deadline": "2026-10-31",
-  "effective": "2026-09-16",
-  "course": {
-   "name": "提升教師教學技能培育課程",
-   "organizer": "台灣中醫醫學教育學會",
-   "start": "2026-09-16",
-   "end": "2026-10-31",
-   "time": null,
-   "location": null,
-   "online": true,
-   "credits": null,
-   "fee": null,
-   "registerUrl": "https://taecm.tibamebiz.com/login",
-   "registerDeadline": null,
-   "regions": [
-    "全國"
-   ],
-   "project": null,
-   "sessions": null
-  }
- },
  "4180:14435edc7944": {
   "topics": [
    "nhi"
@@ -1277,69 +844,6 @@
   "deadline": null,
   "effective": null,
   "course": null
- },
- "2535:e01e958793cc": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "中藥用藥安全講習會各區報名資訊",
-  "points": [
-   "多地多場開課，分別於南區11月29日及台北／北／中區12月13日舉辦。",
-   "採影音課程方式，現場看影片，費用500元/場，每場限25～55名。",
-   "影音課程不提供積分，僅提供修習資格，無法申請繼續教育點數。",
-   "報名截止日依區域而異，南區11月20日、其他區域12月4日。"
-  ],
-  "audience": "中醫師",
-  "action": "根據所在區域報名參加課程",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "「中藥用藥安全管理及品質提升」講習會",
-   "organizer": "中華民國中醫師公會全國聯合會",
-   "start": "2026-11-29",
-   "end": "2026-12-13",
-   "time": null,
-   "location": null,
-   "online": false,
-   "credits": "不提供積分",
-   "fee": "500元/場",
-   "registerUrl": "https://forms.gle/6zTqqUAobdXC7kRV6",
-   "registerDeadline": "2026-12-04",
-   "regions": [
-    "台北區",
-    "北區",
-    "中區",
-    "南區"
-   ],
-   "project": "中藥用藥安全",
-   "sessions": [
-    {
-     "region": "台北區",
-     "date": "2026-12-13",
-     "time": "08:30-10:30",
-     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）"
-    },
-    {
-     "region": "北區",
-     "date": "2026-12-13",
-     "time": "08:30-10:30",
-     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）"
-    },
-    {
-     "region": "中區",
-     "date": "2026-12-13",
-     "time": "08:30-10:30",
-     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）"
-    },
-    {
-     "region": "南區",
-     "date": "2026-11-29",
-     "time": "09:00-11:00",
-     "location": "台南市中醫師公會2樓會議室（台南市中西區武聖路197巷16號）"
-    }
-   ]
-  }
  },
  "4157:b62b19ae2130": {
   "topics": [
@@ -1358,38 +862,6 @@
   "effective": null,
   "course": null
  },
- "4179:ab1ab919a661": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "中醫指導教師認證與展延培訓課程",
-  "points": [
-   "課程對象為申請中醫指導教師認證或展延教學技能時數的中醫師。",
-   "時間為2026年9月13日07:40-16:00，地點在花蓮慈濟醫院大愛樓二樓第一會議室。",
-   "採線上報名，報名截止至2026年9月9日，可聯繫莊貽萱（03-856-1825 #12429）。"
-  ],
-  "audience": "申請中醫指導教師認證或展延教學時數的中醫師",
-  "action": "至線上報名表填寫並報名，截止日為2026年9月9日。",
-  "deadline": "2026-09-09",
-  "effective": null,
-  "course": {
-   "name": "中醫臨床教學實務訓練課程",
-   "organizer": "花蓮慈濟醫院",
-   "start": "2026-09-13",
-   "end": "2026-09-13",
-   "time": "07:40-16:00",
-   "location": "花蓮慈濟醫院大愛樓二樓第一會議室（花蓮縣花蓮市中央路三段707號）",
-   "online": false,
-   "credits": null,
-   "fee": null,
-   "registerUrl": "https://forms.gle/DkhAgmz9iXDAm8Ad6",
-   "registerDeadline": "2026-09-09",
-   "regions": null,
-   "project": null,
-   "sessions": null
-  }
- },
  "4177:56911fea6203": {
   "topics": [
    "affairs"
@@ -1406,38 +878,6 @@
   "deadline": null,
   "effective": null,
   "course": null
- },
- "4175:c7c307d0537c": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "針灸感控用藥安全課程上課時間查詢",
-  "points": [
-   "提供在線查詢系統，查詢個人上課時間與地點",
-   "課程涵蓋針灸SOP、感控及用藥安全訓練內容",
-   "查詢系統回應時間約20-30秒，請耐心等待"
-  ],
-  "audience": null,
-  "action": "點擊連結進入查詢系統，確認個人上課時間與地點",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "針灸SOP感控及用藥安全",
-   "organizer": "中華民國中醫師公會全國聯合會",
-   "start": null,
-   "end": null,
-   "time": null,
-   "location": null,
-   "online": null,
-   "credits": null,
-   "fee": null,
-   "registerUrl": "https://reurl.cc/Vn0KNn",
-   "registerDeadline": null,
-   "regions": null,
-   "project": "感控暨針灸 SOP",
-   "sessions": null
-  }
  },
  "4172:0380c6410bdb": {
   "topics": [
@@ -1473,127 +913,6 @@
   "effective": "2026-08-25",
   "course": null
  },
- "4168:faf4c4711058": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "教師教學技能展延培育課程開放報名",
-  "points": [
-   "僅限具四年效期證書的臨床醫學或中藥學指導教師報名，初次認證者無需參與。",
-   "課程包含創新教學導入、教材製作、溝通輔導、評估技巧四個類別，共4小時。",
-   "課程於9月16日至10月31日開放，無繼續教育積分但時數可作為展延證明。",
-   "報名截止9月10日，需提供確實可收發信件的電郵與手機號碼。"
-  ],
-  "audience": "具四年效期證書的臨床醫學或中藥學指導教師",
-  "action": "確認資格符合後，於9月10日前填寫報名表單",
-  "deadline": "2026-09-10",
-  "effective": null,
-  "course": {
-   "name": "115年度提升教師教學技能培育課程",
-   "organizer": "台灣中醫醫學教育學會",
-   "start": "2026-09-16",
-   "end": "2026-10-31",
-   "time": null,
-   "location": "線上教學平台",
-   "online": true,
-   "credits": null,
-   "fee": null,
-   "registerUrl": "https://forms.gle/GgZJ2sVbXTkHQVsQA",
-   "registerDeadline": "2026-09-10",
-   "regions": [
-    "全國"
-   ],
-   "project": null,
-   "sessions": null
-  }
- },
- "4166:fc6751399b1d": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "9月13日居家醫療照護整合課程（高屏分會）",
-  "points": [
-   "中執會高屏分會辦理「居家醫療照護整合計畫」影音課程。",
-   "9月13日(星期一)下午13:30-17:30於高雄市中醫師公會會館舉辦。",
-   "需提前線上報名，不接受現場報名。",
-   "報名網址：https://reurl.cc/27Y7K6"
-  ],
-  "audience": "高屏區中醫師",
-  "action": "至報名網址完成線上報名",
-  "deadline": null,
-  "effective": "2026-09-13",
-  "course": {
-   "name": "居家醫療照護整合計畫影音課程",
-   "organizer": "中執會高屏分會",
-   "start": "2026-09-13",
-   "end": "2026-09-13",
-   "time": "下午13:30至17:30",
-   "location": "高雄市中醫師公會會館(高雄市鼓山區明華路251號5樓)",
-   "online": null,
-   "credits": null,
-   "fee": null,
-   "registerUrl": "https://reurl.cc/27Y7K6",
-   "registerDeadline": null,
-   "regions": [
-    "高屏區"
-   ],
-   "project": "居家醫療照護整合計畫",
-   "sessions": null
-  }
- },
- "4159:35e7408ab29a": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "南区特定门诊与住院会诊影音课程（9月20日）",
-  "points": [
-   "分上午门诊（9-12:30）和下午会诊（13:30-17）两场，涵盖特定疾病门诊加强照护与住院中医特定疾病辅助主题。",
-   "9月20日在台南市中医师公会2楼举办，影音课程形式，仅获修习资格。",
-   "报名费500元，截止9月11日，额满提前截止。",
-   "课程涵盖腔管疾病、癌症、慢性肾病、妊娠照护与急症等多项议题。"
-  ],
-  "audience": null,
-  "action": "报名参加9月20日影音课程（9月11日截止）",
-  "deadline": "2026-09-11",
-  "effective": null,
-  "course": {
-   "name": "南区特定门诊与住院会诊影音课程",
-   "organizer": "台南市中医师公会",
-   "start": "2026-09-20",
-   "end": "2026-09-20",
-   "time": "上午9:00-12:30（8:30报到）、下午13:30-17:00（13:00报到）",
-   "location": "台南市中医师公会2楼会议室",
-   "online": false,
-   "credits": "无继续教育点数",
-   "fee": "500元（单一场次）",
-   "registerUrl": "https://forms.gle/5FVscqLwf4AJsW4M7",
-   "registerDeadline": "2026-09-11",
-   "regions": [
-    "南区"
-   ],
-   "project": [
-    "特定疾病门诊加强照护",
-    "西医住院中医特定疾病辅助"
-   ],
-   "sessions": [
-    {
-     "region": "南区",
-     "date": "2026-09-20",
-     "time": "09:00-12:30",
-     "location": "台南市中医师公会2楼会议室"
-    },
-    {
-     "region": "南区",
-     "date": "2026-09-20",
-     "time": "13:30-17:00",
-     "location": "台南市中医师公会2楼会议室"
-    }
-   ]
-  }
- },
  "4158:a5c0ed6f71f7": {
   "topics": [
    "nhi"
@@ -1610,76 +929,6 @@
   "deadline": null,
   "effective": null,
   "course": null
- },
- "4154:356853eef966": {
-  "topics": [
-   "course",
-   "affairs"
-  ],
-  "hidden": false,
-  "title": "台北區針灸感控暨中藥安全課程",
-  "points": [
-   "2026年11月15日上午8:30至下午5:40在台北市中醫師公會舉行。",
-   "報名費1000元、積分費800元，截止日期為2026年11月11日。",
-   "提供繼續教育點數、PGY學時及護理師積分。",
-   "現場講師授課並同步線上直播，採混合模式進行。"
-  ],
-  "audience": null,
-  "action": "於11月11日前登入報名網址報名",
-  "deadline": "2026-11-11",
-  "effective": "2026-11-15",
-  "course": {
-   "name": "針灸感控暨中藥安全課程",
-   "organizer": "中執會台北區分會",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "time": "08:30-17:40",
-   "location": "台北市中醫師公會",
-   "online": true,
-   "credits": "繼續教育點數、PGY學時、護理師積分（詳見報名表）",
-   "fee": "報名費1000元、積分費800元",
-   "registerUrl": "https://reurl.cc/vLXQVL",
-   "registerDeadline": "2026-11-11",
-   "regions": [
-    "台北區"
-   ],
-   "project": "感控暨針灸 SOP",
-   "sessions": null
-  }
- },
- "4153:122d53c5a67c": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "居家醫療課程實體上課（10/18）",
-  "points": [
-   "時間 10 月 18 日 8:30-12:40，地點台北市中醫師公會實體上課",
-   "報名費 800 元，10 月 14 日截止報名，額滿提前截止",
-   "無法申請繼續教育點數"
-  ],
-  "audience": null,
-  "action": "於 10 月 14 日前至報名網址報名",
-  "deadline": "2026-10-14",
-  "effective": "2026-10-18",
-  "course": {
-   "name": "居家課程",
-   "organizer": "中執會台北區分會",
-   "start": "2026-10-18",
-   "end": "2026-10-18",
-   "time": "08:30-12:40",
-   "location": "台北市中醫師公會",
-   "online": false,
-   "credits": null,
-   "fee": "800 元",
-   "registerUrl": "https://reurl.cc/8jZ4yR",
-   "registerDeadline": "2026-10-14",
-   "regions": [
-    "台北區"
-   ],
-   "project": null,
-   "sessions": null
-  }
  },
  "4150:6103363450c0": {
   "topics": [
@@ -1923,72 +1172,6 @@
   "effective": null,
   "course": null
  },
- "4109:28f944c22996": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "中醫家庭暨社區醫學科教學實務訓練課程（6/28林口長庚）",
-  "points": [
-   "限具臨床教學指導教師證書或申請展延資格的醫師參加。",
-   "課程日期6月28日（星期日），地點在桃園林口長庚醫院，時間08:00-15:30。",
-   "線上報名，截止6月16日下午5時，名額限60人。"
-  ],
-  "audience": "具備臨床醫學指導教師證書之醫師、申請提升教師教學技能培育課程之展延醫師",
-  "action": "至線上表單報名，截止6月16日17:00。",
-  "deadline": "2026-06-16",
-  "effective": null,
-  "course": {
-   "name": "中醫家庭暨社區醫學科教學實務訓練課程",
-   "organizer": "長庚醫療財團法人林口長庚紀念醫院",
-   "start": "2026-06-28",
-   "end": "2026-06-28",
-   "time": "08:00-15:30",
-   "location": "長庚醫療財團法人林口長庚紀念醫院醫學大樓 1F 第二會議室（桃園市龜山區復興街5號）",
-   "online": false,
-   "credits": null,
-   "fee": null,
-   "registerUrl": "https://forms.gle/KZjZgrjiCSRX8Z4v5",
-   "registerDeadline": "2026-06-16",
-   "regions": null,
-   "project": null,
-   "sessions": null
-  }
- },
- "4056:093eac74ed0d": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "臨床指導教師培訓課程彙整表公布",
-  "points": [
-   "全聯會發布臨床指導教師培訓課程彙整表，課程詳細資訊請查附件。",
-   "課程預計於一個月前開放報名，請密切注意官網及APP的報名公告。",
-   "基礎課程共7小時，採線上課程形式。"
-  ],
-  "audience": null,
-  "action": "查閱課程彙整表，在報名開放後盡速報名。",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "臨床指導教師培訓課程",
-   "organizer": "中華民國中醫師公會全國聯合會",
-   "start": null,
-   "end": null,
-   "time": null,
-   "location": null,
-   "online": null,
-   "credits": null,
-   "fee": null,
-   "registerUrl": null,
-   "registerDeadline": null,
-   "regions": [
-    "全國"
-   ],
-   "project": null,
-   "sessions": null
-  }
- },
  "4106:2a553de7abdb": {
   "topics": [],
   "hidden": true,
@@ -2075,42 +1258,6 @@
   "effective": null,
   "course": null
  },
- "4020:e6348d93c4e6": {
-  "topics": [
-   "course",
-   "nhi"
-  ],
-  "hidden": false,
-  "title": "健保三高試辦計畫中醫師繼續教育課程",
-  "points": [
-   "參與健保三高試辦計畫必須完成本核心課程，每年應接受8小時防治教育訓練。",
-   "課程涵蓋三高政策架構、中醫治療策略、西醫合作與營養衛教等實務內容。",
-   "時間2026年3月29日9:00-17:00，提供實體和線上兩種報名方式。",
-   "課程費1,000元加積分費800元，郵政劃撥繳款時需註明專案及醫師姓名。"
-  ],
-  "audience": "欲參與或已參與健保三高試辦計畫的中醫師",
-  "action": "報名參加課程並完成繳費",
-  "deadline": null,
-  "effective": "2026-03-29",
-  "course": {
-   "name": "健保三高試辦計畫中醫師繼續教育課程",
-   "organizer": "中華民國中醫師公會全國聯合會、台灣中醫家庭醫學醫學會",
-   "start": "2026-03-29",
-   "end": "2026-03-29",
-   "time": "9:00-17:00（8:30報到）",
-   "location": "中醫師公會全國聯合會（新北市板橋區民生路一段33號11樓）；線上同步",
-   "online": true,
-   "credits": "中醫師繼續教育積分（申請中）；8小時",
-   "fee": "課程1,000元＋積分費800元",
-   "registerUrl": "https://forms.gle/5J49uaehnRP98njD7",
-   "registerDeadline": null,
-   "regions": [
-    "全國"
-   ],
-   "project": "三高",
-   "sessions": null
-  }
- },
  "4096:c7f147ab1744": {
   "topics": [
    "law"
@@ -2145,37 +1292,6 @@
   "deadline": null,
   "effective": "2026-05-19",
   "course": null
- },
- "4084:dd8734fbf116": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "第十五屆全人醫療暨整合服務研討會暨國際論壇投稿邀請",
-  "points": [
-   "衛生福利部舉辦第十五屆全人醫療暨整合服務研討會暨國際論壇。",
-   "邀請投稿，詳細資訊見附件。"
-  ],
-  "audience": null,
-  "action": "查閱附件資訊並踴躍投稿",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "第十五屆全人醫療暨整合服務研討會暨國際論壇",
-   "organizer": "衛生福利部",
-   "start": null,
-   "end": null,
-   "time": null,
-   "location": null,
-   "online": null,
-   "credits": null,
-   "fee": null,
-   "registerUrl": null,
-   "registerDeadline": null,
-   "regions": null,
-   "project": null,
-   "sessions": null
-  }
  },
  "4083:48318746acea": {
   "topics": [],
@@ -2379,40 +1495,6 @@
   "effective": "2026-01-01",
   "course": null
  },
- "4057:d66caa8f4125": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "高屏分會居家醫療照護整合計畫課程",
-  "points": [
-   "5月10日(星期日)下午1時至5時，在高雄市中醫師公會會館舉辦影音課程。",
-   "課程聚焦居家醫療照護整合計畫相關內容。",
-   "須事先線上報名，不接受現場報名。"
-  ],
-  "audience": null,
-  "action": "於報名截止前透過線上表單報名參加課程",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "居家醫療照護整合計畫影音課程",
-   "organizer": "中執會高屏分會",
-   "start": "2026-05-10",
-   "end": "2026-05-10",
-   "time": "下午13:00-17:00",
-   "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
-   "online": false,
-   "credits": null,
-   "fee": null,
-   "registerUrl": "https://reurl.cc/X25q8g",
-   "registerDeadline": null,
-   "regions": [
-    "高屏區"
-   ],
-   "project": "居家醫療照護整合",
-   "sessions": null
-  }
- },
  "4055:c21c02e1fa40": {
   "topics": [
    "policy"
@@ -2429,108 +1511,6 @@
   "deadline": null,
   "effective": null,
   "course": null
- },
- "4053:1c04a7b31684": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "台北區居家課程（6月7日）",
-  "points": [
-   "6月7日13:00-17:00於台北市中醫師公會舉辦實體課程",
-   "僅有修習資格，無法申請繼續教育點數",
-   "報名費800元，6月3日截止，額滿提前截止，至指定網址報名"
-  ],
-  "audience": null,
-  "action": "6月3日前至報名網址報名，報名費800元",
-  "deadline": "2026-06-03",
-  "effective": null,
-  "course": {
-   "name": "居家課程",
-   "organizer": "中執會台北區分會",
-   "start": "2026-06-07",
-   "end": "2026-06-07",
-   "time": "13:00-17:00",
-   "location": "台北市中醫師公會",
-   "online": false,
-   "credits": null,
-   "fee": "800元",
-   "registerUrl": "https://reurl.cc/K823Om",
-   "registerDeadline": "2026-06-03",
-   "regions": null,
-   "project": null,
-   "sessions": null
-  }
- },
- "4052:2d97983ab6cd": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "台北區照護機構課程",
-  "points": [
-   "6月7日（日）上午8:30-12:40於台北市中醫師公會舉辦。",
-   "採實體現場加線上同步方式進行。",
-   "可申請繼續教育點數及PGY學習時數。",
-   "報名費800元、積分費400元，6月3日截止。"
-  ],
-  "audience": null,
-  "action": "有興趣者於6月3日前至報名網址登記",
-  "deadline": "2026-06-03",
-  "effective": null,
-  "course": {
-   "name": "照護機構課程",
-   "organizer": "台北區分會",
-   "start": "2026-06-07",
-   "end": "2026-06-07",
-   "time": "08:30-12:40",
-   "location": "台北市中醫師公會",
-   "online": true,
-   "credits": "繼續教育點數及PGY學習時數",
-   "fee": "報名費800元/積分費400元",
-   "registerUrl": "https://reurl.cc/eVlYbx",
-   "registerDeadline": "2026-06-03",
-   "regions": [
-    "台北區"
-   ],
-   "project": null,
-   "sessions": null
-  }
- },
- "4051:0f9fd873dec1": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "台北區照護機構課程（6月7日）",
-  "points": [
-   "課程時間：2026年6月7日（日）上午8:30-12:40",
-   "地點：台北市中醫師公會，實體與線上並行上課",
-   "費用：報名費800元、積分費400元，可申請繼續教育點數及PGY學習時數",
-   "報名期限：6月3日止，額滿提前截止"
-  ],
-  "audience": null,
-  "action": "於6月3日前至報名網址完成課程報名",
-  "deadline": "2026-06-03",
-  "effective": null,
-  "course": {
-   "name": "照護機構中醫課程",
-   "organizer": "中執會台北區分會",
-   "start": "2026-06-07",
-   "end": "2026-06-07",
-   "time": "08:30-12:40",
-   "location": "台北市中醫師公會",
-   "online": true,
-   "credits": "繼續教育點數及PGY學習時數",
-   "fee": "報名費800元/積分費400元",
-   "registerUrl": "https://reurl.cc/eVlYbx",
-   "registerDeadline": "2026-06-03",
-   "regions": [
-    "台北區"
-   ],
-   "project": "照護機構中醫醫療照護",
-   "sessions": null
-  }
  },
  "1479:3b0f71f36964": {
   "topics": [
@@ -2600,54 +1580,6 @@
   "deadline": null,
   "effective": null,
   "course": null
- },
- "4037:6c9c1f8ed861": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "中醫門診專案課程研討會（北區）",
-  "points": [
-   "05月31日桃園舉辦，上午/下午課程各800元、全天1600元；下午限醫院執業3年以上。",
-   "上午課程涵蓋特定疾病加強照護、VPN登錄、癌症、腎臟病、孕產等5主題。",
-   "下午課程涵蓋西醫住院、特定疾病輔助、腦血管疾病、急症處置等4主題。",
-   "網路報名至2026-04-30，一律匯款繳費，無積分但有PGY學時。"
-  ],
-  "audience": "北區中醫師，下午課程限醫院執業滿3年",
-  "action": "網路報名至2026-04-30並匯款繳費",
-  "deadline": "2026-04-30",
-  "effective": "2026-05-31",
-  "course": {
-   "name": "中醫門診總額專案計畫繼續教育研討會",
-   "organizer": "中華民國中醫師公會全國聯合會",
-   "start": "2026-05-31",
-   "end": "2026-05-31",
-   "time": "08:30-17:00",
-   "location": "桃園市中醫師公會教育會館(桃園市中壢區中央西路1段120號19樓之1)",
-   "online": false,
-   "credits": "無積分(PGY學時)",
-   "fee": "上午/下午800元、全天1600元",
-   "registerUrl": "https://forms.gle/F9UVZM2wqt3igxdo6",
-   "registerDeadline": "2026-04-30",
-   "regions": [
-    "北區"
-   ],
-   "project": "特定疾病門診加強照護及西醫住院輔助",
-   "sessions": [
-    {
-     "region": "北區",
-     "date": "2026-05-31",
-     "time": "08:30-12:30",
-     "location": "桃園市中醫師公會教育會館"
-    },
-    {
-     "region": "北區",
-     "date": "2026-05-31",
-     "time": "13:30-17:00",
-     "location": "桃園市中醫師公會教育會館"
-    }
-   ]
-  }
  },
  "4030:ce11497f962c": {
   "topics": [
@@ -2819,66 +1751,6 @@
   "effective": null,
   "course": null
  },
- "4002:aa86c81e76f2": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "中區專案課程報名（2月1日、8月16日）",
-  "points": [
-   "中醫門診總額特定門診與西醫住院暨醫院兩項專案課程，分別於2月1日、8月16日各開課一次。",
-   "門診專案課程上午09:00-12:30，住院專案課程下午13:00-16:30，實體上課，每場限50人。",
-   "影音課程不提供繼續教育點數，僅有修習資格；已取得資格者毋需重複報名。",
-   "報名費800元/場；2月課程截止1月23日、8月課程截止8月7日；額滿提前截止。"
-  ],
-  "audience": "中區參加中醫門診總額或西醫住院暨醫院專案計畫的中醫師",
-  "action": "依需求選擇課程日期及時段，於截止日前上網報名，費用800元/場",
-  "deadline": "2026-01-23",
-  "effective": null,
-  "course": {
-   "name": "中醫門診總額特定門診專案及西醫住院暨醫院專案計畫影音課程",
-   "organizer": "中執會中區分會",
-   "start": "2026-02-01",
-   "end": "2026-08-16",
-   "time": "上午09:00-12:30、下午13:00-16:30",
-   "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）",
-   "online": false,
-   "credits": "無繼續教育點數（影音課程不提供積分）",
-   "fee": "800元/場",
-   "registerUrl": null,
-   "registerDeadline": "2026-01-23",
-   "regions": [
-    "中區"
-   ],
-   "project": "中醫門診總額特定門診專案計畫；西醫住院暨醫院專案計畫",
-   "sessions": [
-    {
-     "region": "中區",
-     "date": "2026-02-01",
-     "time": "09:00-12:30（08:30報到）",
-     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）"
-    },
-    {
-     "region": "中區",
-     "date": "2026-02-01",
-     "time": "13:00-16:30（12:30報到）",
-     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）"
-    },
-    {
-     "region": "中區",
-     "date": "2026-08-16",
-     "time": "09:00-12:30（08:30報到）",
-     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）"
-    },
-    {
-     "region": "中區",
-     "date": "2026-08-16",
-     "time": "13:00-16:30（12:30報到）",
-     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）"
-    }
-   ]
-  }
- },
  "3983:7440b63003b9": {
   "topics": [
    "law"
@@ -2911,109 +1783,6 @@
   "deadline": null,
   "effective": null,
   "course": null
- },
- "3954:be848930bcdb": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "中醫感控針灸 SOP 暨性別議題研討會",
-  "points": [
-   "課程於 11 月 23 日在臺中舉行，實體限 90 名、線上直播同步，時間 08:30-17:00。",
-   "完成課後測驗可取感控與針灸各 6 學時、繼續教育 8 點、負責醫師訓練 8 學時。",
-   "實體課程申請積分 $1,800、不申請 $1,000；線上申請積分 $1,600、不申請 $800。",
-   "11 月 14 日（星期五）截止報名，額滿提前截止，當天不受理現場報名與繳費。"
-  ],
-  "audience": null,
-  "action": "報名參加課程，繳費並完成課後測驗以取得積分與學時。",
-  "deadline": "2025-11-14",
-  "effective": "2025-11-23",
-  "course": {
-   "name": "中醫院所感染管控與針灸 SOP 暨性別議題研討會",
-   "organizer": null,
-   "start": "2025-11-23",
-   "end": "2025-11-23",
-   "time": "08:30-17:00（08:00 開始報到）",
-   "location": "中山醫學大學正心樓 0213 教室（臺中市南區建國北路一段 110 號）",
-   "online": true,
-   "credits": "繼續教育 8 點（感控 3、品質 3、性別 1、專業 1），感染控制課程 6 學時、針灸 SOP 課程 6 學時，負責醫師基本訓練 8 學時",
-   "fee": "實體課程：申請積分 $1,800、不申請積分 $1,000；線上直播：申請積分 $1,600、不申請積分 $800",
-   "registerUrl": "https://forms.gle/vxUZ66AFAUkzvW616",
-   "registerDeadline": "2025-11-14",
-   "regions": null,
-   "project": "感控暨針灸 SOP",
-   "sessions": null
-  }
- },
- "3951:616e6035c8f5": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "居家醫療照護課程",
-  "points": [
-   "2025年11月23日（日）08:30-12:40在台北市中醫師公會舉辦",
-   "同步提供現場及線上上課方式",
-   "課程無積分，線上參與者無法領取證書",
-   "通過報名連結進行報名"
-  ],
-  "audience": null,
-  "action": "報名課程",
-  "deadline": null,
-  "effective": null,
-  "course": {
-   "name": "居家醫療照護課程",
-   "organizer": "台北市中醫師公會",
-   "start": "2025-11-23",
-   "end": "2025-11-23",
-   "time": "08:30-12:40",
-   "location": "台北市中正區青島西路11號3樓&14樓",
-   "online": true,
-   "credits": "無積分",
-   "fee": null,
-   "registerUrl": "https://reurl.cc/8jZ4yR",
-   "registerDeadline": null,
-   "regions": [
-    "台北區"
-   ],
-   "project": null,
-   "sessions": null
-  }
- },
- "3950:a62f87e0434b": {
-  "topics": [
-   "course"
-  ],
-  "hidden": false,
-  "title": "針灸感控暨中藥安全課程",
-  "points": [
-   "11月9日（日）08:30-17:40於台北市中醫師公會舉辦",
-   "提供現場與線上直播兩種參與方式",
-   "完成課程可申請繼續教育積分",
-   "報名網址：https://reurl.cc/vLXQVL"
-  ],
-  "audience": "中醫師",
-  "action": "點擊報名連結完成報名",
-  "deadline": null,
-  "effective": "2025-11-09",
-  "course": {
-   "name": "針灸感控暨中藥安全課程",
-   "organizer": null,
-   "start": "2025-11-09",
-   "end": "2025-11-09",
-   "time": "08:30-17:40",
-   "location": "台北市中醫師公會（台北市中正區青島西路11號3樓&14樓）",
-   "online": true,
-   "credits": null,
-   "fee": null,
-   "registerUrl": "https://reurl.cc/vLXQVL",
-   "registerDeadline": null,
-   "regions": [
-    "台北區"
-   ],
-   "project": "感控暨針灸 SOP,中藥用藥安全",
-   "sessions": null
-  }
  },
  "3942:bc6d01a49c8a": {
   "topics": [
@@ -3079,5 +1848,1438 @@
   "deadline": null,
   "effective": null,
   "course": null
+ },
+ "4192:f51bfff48a60": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "北區3高中醫師繼續教育影音課程報名",
+  "points": [
+   "11/22（日）09:00-17:00於桃園市中醫師公會教育會館辦理影音課程，僅限北區醫師報名。",
+   "報名期間10/02至10/31，一律網路報名，需先匯款$1,000後再填寫報名表。",
+   "課程無繼續教育學分，僅具認證資格，可申請負責醫師基本訓練課程學時。",
+   "已上過此課程的醫師不需再報名。"
+  ],
+  "audience": "北區中醫師（僅限北區醫師報名）",
+  "action": "於10/31前完成匯款繳費並填寫網路報名表。",
+  "deadline": "2026-10-31",
+  "effective": null,
+  "course": {
+   "name": "3高中醫師繼續教育課程培訓（影音課程）",
+   "organizer": "中華民國中醫師公會全國聯合會",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": "09:00-17:00",
+   "location": "桃園市中醫師公會教育會館",
+   "online": false,
+   "credits": "無繼續教育學分（僅具認證資格）；可申請負責醫師基本訓練課程學時：醫務行政2.5學時、衛生政策2.5學時、實證醫學1.5學時",
+   "fee": "$1,000（3高試辦計畫中醫師繼續教育受訓課程）",
+   "registerUrl": "https://forms.gle/7uB38Ho3iGByndYV7",
+   "registerDeadline": "2026-10-31",
+   "regions": [
+    "北區"
+   ],
+   "project": "三高",
+   "sessions": null
+  }
+ },
+ "4060:58308ef5022c": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "三高培訓課程六區開課時間與報名資訊",
+  "points": [
+   "三高課程分台北、北、南、高屏、東區開課，日期與地點各區不同，依所在區擇一場報名。",
+   "北區 11/22 影音課程報名費 1000 元，10/31 前網路報名，請匯款後填寫報名表。",
+   "已上過課的醫師不需再報名。",
+   "課前退費酌收 200 元手續費，課前兩週及課後不予退款。"
+  ],
+  "audience": "中醫師（已上過三高課程者不需再報名）",
+  "action": "依所在健保分區選擇場次，於截止前上網報名並完成繳費。",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "三高培訓課程",
+   "organizer": "中華民國中醫師公會全國聯合會及各區中執會分會",
+   "start": "2026-04-26",
+   "end": "2026-11-22",
+   "time": null,
+   "location": null,
+   "online": null,
+   "credits": "各區不同，詳見 sessions",
+   "fee": null,
+   "registerUrl": null,
+   "registerDeadline": null,
+   "regions": [
+    "台北區",
+    "北區",
+    "南區",
+    "高屏區",
+    "東區"
+   ],
+   "project": "三高",
+   "sessions": [
+    {
+     "region": "台北區",
+     "date": "2026-07-05",
+     "time": "08:30-17:30",
+     "location": "台北市中醫師公會",
+     "fee": "報名費1000元",
+     "registerDeadline": null,
+     "registerUrl": "https://reurl.cc/K2Me8p",
+     "contact": null,
+     "note": "可申請PGY學習時數；實體現場看影片"
+    },
+    {
+     "region": "台北區",
+     "date": "2026-08-16",
+     "time": "08:30-17:30",
+     "location": "台北市中醫師公會",
+     "fee": "報名費1000元",
+     "registerDeadline": null,
+     "registerUrl": "https://reurl.cc/K2Me8p",
+     "contact": null,
+     "note": "可申請PGY學習時數；實體現場看影片"
+    },
+    {
+     "region": "北區",
+     "date": "2026-11-22",
+     "time": "09:00-17:00",
+     "location": "桃園市中醫師公會教育會館",
+     "fee": "1000元（匯款後填寫報名表）",
+     "registerDeadline": "2026-10-31",
+     "registerUrl": "https://forms.gle/7uB38Ho3iGByndYV7",
+     "contact": null,
+     "note": "影音課程，無繼續教育學分；可申請負責醫師基本訓練學時"
+    },
+    {
+     "region": "南區",
+     "date": "2026-04-26",
+     "time": "08:30-17:00",
+     "location": "奇美醫院第五醫療大樓國際會議廳",
+     "fee": "報名費+積分費1000元（不需學分者500元）",
+     "registerDeadline": "2026-04-17",
+     "registerUrl": null,
+     "contact": null,
+     "note": "實體+線上；可申請繼續教育點數及PGY學習時數"
+    },
+    {
+     "region": "高屏區",
+     "date": "2026-07-15",
+     "time": "09:00-16:50（08:30報到）",
+     "location": "高雄市中醫師公會會館（鼓山區明華路251號5樓）",
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": "https://reurl.cc/dpNKAq",
+     "contact": null,
+     "note": "加開場次二，需依報名場次參加；不受理現場報名"
+    },
+    {
+     "region": "高屏區",
+     "date": "2026-07-16",
+     "time": "09:00-16:50（08:30報到）",
+     "location": "高雄市中醫師公會會館（鼓山區明華路251號5樓）",
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": "https://reurl.cc/dpNKAq",
+     "contact": null,
+     "note": "加開場次二，需依報名場次參加；不受理現場報名"
+    },
+    {
+     "region": "高屏區",
+     "date": "2026-07-19",
+     "time": "09:00-16:50（08:30報到）",
+     "location": "高雄市中醫師公會會館（鼓山區明華路251號5樓）",
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": "https://forms.gle/aqiNvrihCmYHNKsD9",
+     "contact": null,
+     "note": "中醫三高病人加強照護計畫影音課程；不受理現場報名"
+    },
+    {
+     "region": "東區",
+     "date": "2026-06-07",
+     "time": "08:30-17:00",
+     "location": "協力樓三樓合心會議室",
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": "https://forms.gle/wRH4fpg7BgUGnKxT7",
+     "contact": "陳小姐（03-8330861）",
+     "note": "採電話或網路報名，不受理現場報名"
+    },
+    {
+     "region": "東區",
+     "date": "2026-06-07",
+     "time": "08:30-17:00",
+     "location": "娜路彎大酒店二樓卑南會議廳",
+     "fee": "500元",
+     "registerDeadline": "2026-05-18",
+     "registerUrl": null,
+     "contact": "總幹事高小姐（私訊報名）",
+     "note": "實體影視課程；可申請基本訓練課程6學分"
+    }
+   ]
+  }
+ },
+ "4190:a5b5a757b0d1": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "高屏區影音課程：特定門診與西醫住院專案",
+  "points": [
+   "10/18（日）於高雄市中醫師公會會館辦理，上午特定門診、下午西醫住院",
+   "須事先線上報名，不受理現場報名",
+   "須親至會館觀看影片，無法申請繼續教育學分",
+   "可申請負責醫師基本訓練課程學時"
+  ],
+  "audience": null,
+  "action": "事先線上報名，並親至高雄市中醫師公會會館觀看影片",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "特定門診＋西醫住院專案影音課程",
+   "organizer": "中執會高屏區分會",
+   "start": "2026-10-18",
+   "end": "2026-10-18",
+   "time": "上午 9:00–12:30（8:30 報到）；下午 13:30–17:00（13:00 報到）",
+   "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
+   "online": false,
+   "credits": "負責醫師基本訓練課程學時（無法申請繼續教育學分）",
+   "fee": null,
+   "registerUrl": "https://reurl.cc/QNGW2Z",
+   "registerDeadline": null,
+   "regions": [
+    "高屏區"
+   ],
+   "project": "特定門診加強照護、西醫住院輔助",
+   "sessions": [
+    {
+     "region": "高屏區",
+     "date": "2026-10-18",
+     "time": "9:00–12:30（8:30 報到）",
+     "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": "https://reurl.cc/QNGW2Z",
+     "contact": null,
+     "note": "課程含特定門診加強照護、特定癌症、慢性腎臟病、孕產照護"
+    },
+    {
+     "region": "高屏區",
+     "date": "2026-10-18",
+     "time": "13:30–17:00（13:00 報到）",
+     "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": "https://reurl.cc/QNGW2Z",
+     "contact": null,
+     "note": "西醫住院中醫特定疾病輔助、癌症住院中醫輔助、中醫急症處置"
+    }
+   ]
+  }
+ },
+ "4185:d123be56317e": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "115年初次認證7小時課程開放報名（第二波至10/1）",
+  "points": [
+   "線上課程於9/24至10/31開放，非直播，須自行分配時間完整參與。",
+   "限未獲115年度師資推薦或申請培訓資格者報名；未於期限內展延效期需重新上課者也可報名。",
+   "此課程無繼續教育積分，參與後須於10/31前另提師資認證申請，僅上課無法取得證書。",
+   "報名資料10/2起篩選並建置至教學平台，將以電子郵件通知帳號密碼。"
+  ],
+  "audience": "初次認證之臨床醫學指導教師或中藥學指導教師",
+  "action": "符合資格者於報名期限內完成報名，並於10/31前提出師資認證申請。",
+  "deadline": "2026-10-01",
+  "effective": null,
+  "course": {
+   "name": "115年度 初次認證 7小時課程",
+   "organizer": "台灣中醫醫學教育學會",
+   "start": "2026-09-24",
+   "end": "2026-10-31",
+   "time": "線上自學，9/24～10/31開放，自行分配時間",
+   "location": null,
+   "online": true,
+   "credits": "無申請繼續教育積分",
+   "fee": null,
+   "registerUrl": "https://forms.gle/r9wp85wFFuNwWbzQ6",
+   "registerDeadline": "2026-10-01",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4189:026438e7a226": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "初次認證7小時培訓課程開放，10/31前完成",
+  "points": [
+   "7小時培訓課程（臨床醫學／中藥學指導教師）已於2026年9月24日開放上課。",
+   "請於2026年10月31日前完成觀看與學習紀錄。",
+   "教學平台與學會官網不同，請勿混淆。",
+   "學會將於10月公告初次認證申請辦法，請留意學會官網。"
+  ],
+  "audience": "今年度預計初次認證師資的學員",
+  "action": "於2026年10月31日前至線上教學平台完成7小時課程觀看與學習紀錄。",
+  "deadline": "2026-10-31",
+  "effective": null,
+  "course": {
+   "name": "初次認證7小時培訓課程（臨床醫學指導教師／中藥學指導教師）",
+   "organizer": "台灣中醫醫學教育學會",
+   "start": "2026-09-24",
+   "end": "2026-10-31",
+   "time": null,
+   "location": null,
+   "online": true,
+   "credits": null,
+   "fee": null,
+   "registerUrl": null,
+   "registerDeadline": null,
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4186:4c5a8825dde5": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫院所感控與針灸SOP暨性別議題研討會",
+  "points": [
+   "11/22（日）於中山醫學大學舉辦，實體限90名，另有線上直播。",
+   "全程出席並通過課後測驗，可取得感控計畫與針灸SOP各6學時。",
+   "另可得繼續教育積分8點，以及負責醫師基本訓練8學時。",
+   "實體申請積分報名費1,800元；截止日11/13，額滿提前截止。"
+  ],
+  "audience": null,
+  "action": "於報名網址完成報名與繳費，選擇實體或線上直播。",
+  "deadline": "2026-11-13",
+  "effective": null,
+  "course": {
+   "name": "中醫院所感染管控與針灸SOP暨性別議題研討會",
+   "organizer": null,
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": "08:30-17:00（08:00開始報到）",
+   "location": "中山醫學大學正心樓0213教室（臺中市南區建國北路一段110號）",
+   "online": true,
+   "credits": "感控計畫課程6學時、針灸標準作業程序課程6學時；繼續教育積分8點：感控3點、品質3點、性別1點、專業1點；負責醫師基本訓練課程8學時：感染控制3學時、醫學倫理/醫學法規1學時、衛生政策1學時、醫療品質2學時、實證醫學1學時",
+   "fee": "實體課程：申請積分1,800元／不申請積分1,000元；直播課程：申請積分1,600元／不申請積分800元",
+   "registerUrl": "https://forms.gle/x2eXmyhLFwGuNwg3A",
+   "registerDeadline": "2026-11-13",
+   "regions": null,
+   "project": "感控暨針灸 SOP",
+   "sessions": null
+  }
+ },
+ "4182:80f026f11508": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "115年教師教學技能培育課程 9/16 起開放上課",
+  "points": [
+   "課程開放期間為 2026年9月16日至10月31日，線上平台上課。",
+   "已完成報名並通過資格確認者，依通知信所附帳號密碼登入。",
+   "通知信分批寄送中，尚未收到者請耐心等候，勿重複來信詢問。",
+   "寄送完成後仍未收到，再電洽學會（04-23290023，上班日09:00-17:00）。"
+  ],
+  "audience": "已完成報名並通過資格確認之學員",
+  "action": "依課程通知信登入平台上課；尚未收到通知信者先等候，寄送完成後仍未收到再聯繫學會。",
+  "deadline": "2026-10-31",
+  "effective": "2026-09-16",
+  "course": {
+   "name": "115年度「提升教師教學技能培育課程」",
+   "organizer": "台灣中醫醫學教育學會",
+   "start": "2026-09-16",
+   "end": "2026-10-31",
+   "time": null,
+   "location": null,
+   "online": true,
+   "credits": null,
+   "fee": null,
+   "registerUrl": null,
+   "registerDeadline": null,
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
+ },
+ "3170:57698ac385ac": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "115年居家醫療照護整合培訓課程六區時間表",
+  "points": [
+   "115年居家醫療照護整合培訓課程六區開課時間表，各區日期與報名方式不同。",
+   "課程多為影音課程，僅具修習資格，無法申請繼續教育點數。",
+   "已上過課程取得資格的醫師不需再報名。",
+   "北區場次可申請負責醫師基本訓練課程學時（衛生政策2、醫療行政2學時）。"
+  ],
+  "audience": null,
+  "action": "依所在分區時間於截止日前報名，部分分區須先匯款繳費",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "居家醫療照護整合計畫培訓課程",
+   "organizer": "中華民國中醫師公會全國聯合會",
+   "start": "2026-03-15",
+   "end": "2026-10-18",
+   "time": null,
+   "location": null,
+   "online": false,
+   "credits": "僅有修習資格，無法申請繼續教育點數",
+   "fee": "依區別：800元或500元",
+   "registerUrl": null,
+   "registerDeadline": null,
+   "regions": [
+    "台北區",
+    "北區",
+    "中區",
+    "南區",
+    "高屏區",
+    "東區"
+   ],
+   "project": "居家醫療照護整合",
+   "sessions": [
+    {
+     "region": "台北區",
+     "date": "2026-06-07",
+     "time": "13:00-17:00",
+     "location": "台北市中醫師公會",
+     "fee": "800元",
+     "registerDeadline": "2026-06-03",
+     "registerUrl": "https://reurl.cc/K823Om",
+     "contact": "02-2314-0277 范先生",
+     "note": "僅具修習資格，無繼續教育點數；額滿提前截止"
+    },
+    {
+     "region": "北區",
+     "date": "2026-10-18",
+     "time": "09:00-12:40",
+     "location": "桃園市中醫師公會教育會館",
+     "fee": "800元",
+     "registerDeadline": "2026-10-10",
+     "registerUrl": "https://forms.gle/bTCMW2SLk74rVQ1ZA",
+     "contact": "03-4365567 謝小姐",
+     "note": "可申請負責醫師基本訓練：衛生政策2學時、醫療行政2學時"
+    },
+    {
+     "region": "中區",
+     "date": "2026-03-29",
+     "time": "09:00-13:10（08:30報到）",
+     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）",
+     "fee": "800元",
+     "registerDeadline": "2026-03-20",
+     "registerUrl": "https://forms.gle/JaQXzhxHVGZ16HZk9",
+     "contact": "04-2235 8562 楊小姐",
+     "note": "限50名；影音課程不提供積分"
+    },
+    {
+     "region": "中區",
+     "date": "2026-09-20",
+     "time": "09:00-13:10（08:30報到）",
+     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）",
+     "fee": "800元",
+     "registerDeadline": "2026-09-11",
+     "registerUrl": "https://forms.gle/UeFk1cNd4pjCxHKv5",
+     "contact": "04-2235 8562 楊小姐",
+     "note": "限50名；影音課程不提供積分"
+    },
+    {
+     "region": "南區",
+     "date": "2026-03-15",
+     "time": "08:30-12:20（08:00報到）",
+     "location": "台南市中醫師公會2樓會議室",
+     "fee": "500元",
+     "registerDeadline": "2026-03-10",
+     "registerUrl": "https://reurl.cc/K823Om",
+     "contact": "06-2502912 李小姐",
+     "note": "僅具修習資格，無繼續教育點數"
+    },
+    {
+     "region": "南區",
+     "date": "2026-08-23",
+     "time": "08:30-12:20（08:00報到）",
+     "location": "台南市中醫師公會2樓會議室",
+     "fee": "500元",
+     "registerDeadline": "2026-08-17",
+     "registerUrl": "https://forms.gle/T88iTJMBZcyzqyf26",
+     "contact": "06-2502912 李小姐",
+     "note": "僅具修習資格，無繼續教育點數"
+    },
+    {
+     "region": "高屏區",
+     "date": "2026-09-14",
+     "time": "13:30-17:30",
+     "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": "https://reurl.cc/27Y7K6",
+     "contact": "07-5505551 楊小姐",
+     "note": "請事先報名，不接受現場報名"
+    }
+   ]
+  }
+ },
+ "2535:e01e958793cc": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "中藥用藥安全講習會各區報名資訊",
+  "points": [
+   "各區分場舉辦「中藥用藥安全管理及品質提升」講習會，每場500元",
+   "採影音課程形式，不提供積分，僅有修習資格，無法申請繼續教育點數",
+   "各場名額有限，額滿提前截止；中區當天不受理現場報名",
+   "南區報名網址目前尚未開放"
+  ],
+  "audience": null,
+  "action": "選擇所屬分區場次，於報名截止日前完成報名。",
+  "deadline": "2026-11-20",
+  "effective": null,
+  "course": {
+   "name": "中藥用藥安全管理及品質提升講習會",
+   "organizer": null,
+   "start": "2026-11-29",
+   "end": "2026-12-13",
+   "time": null,
+   "location": null,
+   "online": false,
+   "credits": "不提供積分，僅有修習資格，無法申請繼續教育點數",
+   "fee": "500元/場",
+   "registerUrl": "https://forms.gle/6zTqqUAobdXC7kRV6",
+   "registerDeadline": null,
+   "regions": [
+    "台北區",
+    "北區",
+    "中區",
+    "南區",
+    "高屏區",
+    "東區"
+   ],
+   "project": "中藥用藥安全",
+   "sessions": [
+    {
+     "region": "台北區",
+     "date": null,
+     "time": null,
+     "location": null,
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": null,
+     "contact": "范先生 02 2958 0721",
+     "note": null
+    },
+    {
+     "region": "北區",
+     "date": null,
+     "time": null,
+     "location": null,
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": null,
+     "contact": "謝小姐 03-4365567",
+     "note": null
+    },
+    {
+     "region": "中區",
+     "date": "2026-12-13",
+     "time": "08:30-10:30（08:00報到）",
+     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）",
+     "fee": "500元/場",
+     "registerDeadline": "2026-12-04",
+     "registerUrl": "https://forms.gle/6zTqqUAobdXC7kRV6",
+     "contact": "楊小姐 04-2235-8562",
+     "note": "影音課程，限55名，不提供積分"
+    },
+    {
+     "region": "南區",
+     "date": "2026-11-29",
+     "time": "09:00-11:00（08:30報到）",
+     "location": "台南市中醫師公會2樓會議室（台南市中西區武聖路197巷16號）",
+     "fee": "500元/場",
+     "registerDeadline": "2026-11-20",
+     "registerUrl": null,
+     "contact": "李小姐 06-2502 912",
+     "note": "現場看影片，限25名，不提供積分"
+    },
+    {
+     "region": "高屏區",
+     "date": null,
+     "time": null,
+     "location": null,
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": null,
+     "contact": "楊小姐 07-5505551",
+     "note": null
+    },
+    {
+     "region": "東區",
+     "date": null,
+     "time": null,
+     "location": null,
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": null,
+     "contact": "陳小姐 03 8330861",
+     "note": null
+    }
+   ]
+  }
+ },
+ "4179:ab1ab919a661": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "花蓮慈濟中醫臨床教學實務訓練課程（9/13）",
+  "points": [
+   "115 年 9 月 13 日於花蓮慈濟醫院舉辦中醫臨床教學實務訓練課程",
+   "對象為申請中醫負責醫師訓練指導教師認證者，及欲展延教師時數者",
+   "採線上報名，報名至 115 年 9 月 9 日止"
+  ],
+  "audience": "申請今年中醫負責醫師訓練中醫指導教師認證之醫師；欲取得提升教師教學技能培育課程展延時數之指導教師",
+  "action": "於截止前線上報名課程",
+  "deadline": "2026-09-09",
+  "effective": null,
+  "course": {
+   "name": "中醫臨床教學實務訓練課程",
+   "organizer": "佛教慈濟醫療財團法人花蓮慈濟醫院中醫臨床技能中心、佛教慈濟醫療財團法人花蓮慈濟醫院中醫部",
+   "start": "2026-09-13",
+   "end": "2026-09-13",
+   "time": "07:40-16:00",
+   "location": "花蓮慈濟醫院大愛樓二樓第一會議室（花蓮縣花蓮市中央路三段707號）",
+   "online": false,
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/DkhAgmz9iXDAm8Ad6",
+   "registerDeadline": "2026-09-09",
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4176:2df5c8ff4602": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "東區四門專案課程：居家照護、中藥安全、特定門診、西醫住院",
+  "points": [
+   "9/20 上午居家照護、下午中藥用藥安全；10/4 上午特定門診、下午西醫住院會診。",
+   "課程地點為花蓮縣中醫師公會會館（花蓮市林森路236之27號7樓）。",
+   "採線上報名、現場收費，每場報名費 500 元，每場限 15 人。"
+  ],
+  "audience": null,
+  "action": "線上報名課程，並於課程當天現場繳交報名費。",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "居家照護/中藥用藥安全/特定門診/西醫住院 影音課程",
+   "organizer": "中執會東區分會",
+   "start": "2026-09-20",
+   "end": "2026-10-04",
+   "time": "9/20 09:10–12:40、13:10–15:10；10/4 09:10–12:40、13:30–17:00",
+   "location": "花蓮縣中醫師公會會館（花蓮市林森路236之27號7樓）",
+   "online": null,
+   "credits": null,
+   "fee": "單一場次 500 元，課程當天現場繳交",
+   "registerUrl": "https://forms.gle/SzNvb8MUsdW8sWW48",
+   "registerDeadline": null,
+   "regions": [
+    "東區"
+   ],
+   "project": null,
+   "sessions": [
+    {
+     "region": "東區",
+     "date": "2026-09-20",
+     "time": "09:10–12:40",
+     "location": "花蓮縣中醫師公會會館（花蓮市林森路236之27號7樓）",
+     "fee": "500 元，現場繳交",
+     "registerDeadline": null,
+     "registerUrl": "https://forms.gle/SzNvb8MUsdW8sWW48",
+     "contact": null,
+     "note": "居家照護課程；09:00 報到"
+    },
+    {
+     "region": "東區",
+     "date": "2026-09-20",
+     "time": "13:10–15:10",
+     "location": "花蓮縣中醫師公會會館（花蓮市林森路236之27號7樓）",
+     "fee": "500 元，現場繳交",
+     "registerDeadline": null,
+     "registerUrl": "https://forms.gle/SzNvb8MUsdW8sWW48",
+     "contact": null,
+     "note": "中藥用藥安全課程；13:00 報到"
+    },
+    {
+     "region": "東區",
+     "date": "2026-10-04",
+     "time": "09:10–12:40",
+     "location": "花蓮縣中醫師公會會館（花蓮市林森路236之27號7樓）",
+     "fee": "500 元，現場繳交",
+     "registerDeadline": null,
+     "registerUrl": "https://forms.gle/SzNvb8MUsdW8sWW48",
+     "contact": null,
+     "note": "特定門診課程；09:00 報到"
+    },
+    {
+     "region": "東區",
+     "date": "2026-10-04",
+     "time": "13:30–17:00",
+     "location": "花蓮縣中醫師公會會館（花蓮市林森路236之27號7樓）",
+     "fee": "500 元，現場繳交",
+     "registerDeadline": null,
+     "registerUrl": "https://forms.gle/SzNvb8MUsdW8sWW48",
+     "contact": null,
+     "note": "西醫住院會診；13:20 報到"
+    }
+   ]
+  }
+ },
+ "4175:c7c307d0537c": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "針灸SOP、感控及用藥安全上課日期查詢",
+  "points": [
+   "公告提供針灸SOP、感控及用藥安全課程的上課日期查詢連結。",
+   "查詢需時約20-30秒，請耐心等待。"
+  ],
+  "audience": null,
+  "action": "至 https://reurl.cc/Vn0KNn 查詢針灸SOP、感控及用藥安全課程的上課日期。",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "針灸SOP、感控及用藥安全",
+   "organizer": null,
+   "start": null,
+   "end": null,
+   "time": null,
+   "location": null,
+   "online": null,
+   "credits": null,
+   "fee": null,
+   "registerUrl": null,
+   "registerDeadline": null,
+   "regions": null,
+   "project": "感控暨針灸 SOP、中藥用藥安全",
+   "sessions": null
+  }
+ },
+ "4168:faf4c4711058": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "115年指導教師教學技能課程開放報名",
+  "points": [
+   "僅限證書為四年效期之指導教師（臨床醫學、中藥學）報名，初次認證者不需參加。",
+   "本年度共四堂、總計4小時：創新教學導入、教材製作、溝通及輔導、評估技巧各1小時。",
+   "本課程無繼續教育積分；非今年到期者，學會將登記時數，供第四年展延使用。",
+   "今年底到期的師資需另行申請展延，辦法預計9月中公告，期限將配合延長。"
+  ],
+  "audience": "證書為四年效期之指導教師（臨床醫學指導教師、中藥學指導教師）",
+  "action": "符合資格者於報名期限前填寫報名表單，並留下可收發信件的E-mail及手機號碼。",
+  "deadline": "2026-09-10",
+  "effective": null,
+  "course": {
+   "name": "115年度提升教師教學技能培育課程",
+   "organizer": "台灣中醫醫學教育學會",
+   "start": "2026-09-16",
+   "end": "2026-10-31",
+   "time": null,
+   "location": null,
+   "online": true,
+   "credits": "無申請繼續教育積分",
+   "fee": null,
+   "registerUrl": "https://forms.gle/GgZJ2sVbXTkHQVsQA",
+   "registerDeadline": "2026-09-10",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4166:fc6751399b1d": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "居家醫療照護整合計畫影音課程（高屏分會）",
+  "points": [
+   "9月13日（週一）下午13:30至17:30，於高雄市中醫師公會會館上課。",
+   "本課程為中執會高屏分會辦理之「居家醫療照護整合計畫」影音課程。",
+   "需事先報名，不接受現場報名。"
+  ],
+  "audience": null,
+  "action": "事先透過報名連結報名參加課程。",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "居家醫療照護整合計畫影音課程",
+   "organizer": "中執會高屏分會",
+   "start": "2026-09-13",
+   "end": "2026-09-13",
+   "time": "下午13:30至下午17:30",
+   "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
+   "online": null,
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://reurl.cc/27Y7K6",
+   "registerDeadline": null,
+   "regions": [
+    "高屏區"
+   ],
+   "project": "居家醫療照護整合",
+   "sessions": null
+  }
+ },
+ "4159:35e7408ab29a": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "南區分會特定門診與住院會診影音課程（9/20）",
+  "points": [
+   "9/20（日）分上午門診場與下午會診場，單一場次報名，每場500元",
+   "上午門診場涵蓋特定疾病門診加強照護、特定癌症、慢性腎臟病、提升孕產照護",
+   "下午會診場涵蓋西醫住院中醫特定疾病輔助、癌症住院中醫輔助、中醫急症處置",
+   "僅有修習資格，無法申請繼續教育點數"
+  ],
+  "audience": null,
+  "action": "於 9/11 前透過報名網址報名，每場報名費500元",
+  "deadline": "2026-09-11",
+  "effective": null,
+  "course": {
+   "name": "特定門診+住院會診專案影音課程",
+   "organizer": "中執會南區分會",
+   "start": "2026-09-20",
+   "end": "2026-09-20",
+   "time": "上午場 09:00-12:30（08:30報到）；下午場 13:30-17:00（13:00報到）",
+   "location": "台南市中醫師公會2樓會議室",
+   "online": false,
+   "credits": "僅有修習資格，無法申請繼續教育點數",
+   "fee": "報名費500元（單一場次）",
+   "registerUrl": "https://forms.gle/5FVscqLwf4AJsW4M7",
+   "registerDeadline": "2026-09-11",
+   "regions": [
+    "南區"
+   ],
+   "project": "特定門診+住院會診專案",
+   "sessions": [
+    {
+     "region": "南區",
+     "date": "2026-09-20",
+     "time": "09:00-12:30（08:30報到）",
+     "location": "台南市中醫師公會2樓會議室",
+     "fee": "報名費500元（單一場次）",
+     "registerDeadline": "2026-09-11",
+     "registerUrl": "https://forms.gle/5FVscqLwf4AJsW4M7",
+     "contact": null,
+     "note": "門診：特定疾病加強照護、特定癌症、慢性腎臟病、提升孕產照護"
+    },
+    {
+     "region": "南區",
+     "date": "2026-09-20",
+     "time": "13:30-17:00（13:00報到）",
+     "location": "台南市中醫師公會2樓會議室",
+     "fee": "報名費500元（單一場次）",
+     "registerDeadline": "2026-09-11",
+     "registerUrl": "https://forms.gle/5FVscqLwf4AJsW4M7",
+     "contact": null,
+     "note": "會診：西醫住院中醫特定疾病輔助、癌症住院輔助、中醫急症處置"
+    }
+   ]
+  }
+ },
+ "4154:356853eef966": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "針灸感控暨中藥安全課程，11/15 台北市中醫師公會",
+  "points": [
+   "11/15（日）08:30-17:40，台北市中醫師公會現場上課，並有線上直播。",
+   "提供繼續教育點數及 PGY 學時（詳見報名表），另提供護理師積分。",
+   "報名費 1000 元，積分費 800 元；額滿提前截止報名。"
+  ],
+  "audience": null,
+  "action": "於報名截止日前至報名網址完成報名。",
+  "deadline": "2026-11-11",
+  "effective": null,
+  "course": {
+   "name": "針灸感控暨中藥安全課程",
+   "organizer": "中執會台北區分會",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": "08:30-17:40",
+   "location": "台北市中醫師公會",
+   "online": true,
+   "credits": "繼續教育點數及 PGY 學時（詳見報名表）；另提供護理師積分",
+   "fee": "報名費 1000 元，積分費 800 元",
+   "registerUrl": "https://reurl.cc/vLXQVL",
+   "registerDeadline": "2026-11-11",
+   "regions": [
+    "台北區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4153:122d53c5a67c": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "台北區居家課程 10/18 實體上課（看影片）",
+  "points": [
+   "10/18（日）08:30-12:40 於台北市中醫師公會實體上課，課程為看影片。",
+   "僅有修習資格，無法申請繼續教育點數。",
+   "報名費800元，報名截止日為10/14，額滿提前截止。"
+  ],
+  "audience": null,
+  "action": "於2026-10-14前至報名網址報名並支付報名費800元",
+  "deadline": "2026-10-14",
+  "effective": null,
+  "course": {
+   "name": "居家課程",
+   "organizer": "中執會台北區分會",
+   "start": "2026-10-18",
+   "end": "2026-10-18",
+   "time": "08:30-12:40",
+   "location": "台北市中醫師公會",
+   "online": false,
+   "credits": null,
+   "fee": "報名費800元",
+   "registerUrl": "https://reurl.cc/8jZ4yR",
+   "registerDeadline": "2026-10-14",
+   "regions": [
+    "台北區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4109:28f944c22996": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "師資展延：中醫家庭暨社區醫學科教學實務訓練課程（6/28）",
+  "points": [
+   "主辦單位為林口長庚紀念醫院，指導單位為衛生福利部。",
+   "課程於115年6月28日（日）08:00-15:30，在林口長庚醫學大樓1F第二會議室舉行。",
+   "參加對象為具臨床醫學指導教師證書之醫師，及申請提升教師教學技能培育課程展延的醫師。",
+   "採線上報名，限60人，報名至115年6月16日17:00或額滿為止。"
+  ],
+  "audience": "具備臨床醫學指導教師證書之醫師；申請提升教師教學技能培育課程之展延醫師",
+  "action": "具上述資格者於115年6月16日17:00前線上報名。",
+  "deadline": "2026-06-16",
+  "effective": null,
+  "course": {
+   "name": "中醫家庭暨社區醫學科教學實務訓練課程",
+   "organizer": "長庚醫療財團法人林口長庚紀念醫院",
+   "start": "2026-06-28",
+   "end": "2026-06-28",
+   "time": "08:00-15:30",
+   "location": "長庚醫療財團法人林口長庚紀念醫院醫學大樓 1F 第二會議室（桃園市龜山區復興街5號）",
+   "online": false,
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/KZjZgrjiCSRX8Z4v5",
+   "registerDeadline": "2026-06-16",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4056:093eac74ed0d": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "115年中醫藥臨床指導教師培訓課程彙整表（持續更新）",
+  "points": [
+   "彙整 115 年中醫藥臨床指導教師培訓課程，內容持續更新中。",
+   "課程預計於開課前一個月開放報名，請留意公會官網及APP公告並盡速報名。",
+   "基礎課程 7 小時目前規劃為線上課程，待開放報名。"
+  ],
+  "audience": "中醫藥臨床指導教師培訓課程學員",
+  "action": "留意官網及APP公告，盡速完成課程報名",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "115年中醫藥臨床指導教師培訓課程",
+   "organizer": "中華民國中醫師公會全國聯合會",
+   "start": null,
+   "end": null,
+   "time": null,
+   "location": null,
+   "online": null,
+   "credits": null,
+   "fee": null,
+   "registerUrl": null,
+   "registerDeadline": null,
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4020:e6348d93c4e6": {
+  "topics": [
+   "course",
+   "nhi"
+  ],
+  "hidden": false,
+  "title": "健保三高試辦計畫中醫師受訓課程",
+  "points": [
+   "參與健保三高試辦計畫，須先完成中醫全聯會辦理的繼續教育受訓課程。",
+   "參與計畫者每年須受訓8小時三高（高血壓、高血糖、高血脂）防治課程。",
+   "115年3月29日（日）9:00-17:00上課，名額有限，另開放視訊報名。"
+  ],
+  "audience": "參與健保三高試辦計畫的中醫師",
+  "action": "報名參加課程，並以郵政劃撥繳費（附註三高專案課程費用與上課醫師姓名）",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "健保三高試辦計畫｜中醫師繼續教育受訓課程",
+   "organizer": "中華民國中醫師公會全國聯合會、台灣中醫家庭醫學醫學會",
+   "start": "2026-03-29",
+   "end": "2026-03-29",
+   "time": "9:00-17:00（8:30報到）",
+   "location": "中醫師公會全國聯合會（新北市板橋區民生路一段33號11樓）",
+   "online": true,
+   "credits": "中醫師繼續教育積分申請中",
+   "fee": "報名費1,000元；積分費用800元另計",
+   "registerUrl": "https://forms.gle/5J49uaehnRP98njD7",
+   "registerDeadline": null,
+   "regions": [
+    "全國"
+   ],
+   "project": "三高",
+   "sessions": null
+  }
+ },
+ "4084:dd8734fbf116": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "第十五屆全人醫療暨整合服務研討會徵稿",
+  "points": [
+   "衛福部舉辦第十五屆全人醫療暨整合服務研討會暨國際論壇。",
+   "詳細內容請見附件 PDF。",
+   "公告呼籲踴躍投稿。"
+  ],
+  "audience": null,
+  "action": "依附件說明踴躍投稿。",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "第十五屆全人醫療暨整合服務研討會暨國際論壇",
+   "organizer": "衛生福利部",
+   "start": null,
+   "end": null,
+   "time": null,
+   "location": null,
+   "online": null,
+   "credits": null,
+   "fee": null,
+   "registerUrl": null,
+   "registerDeadline": null,
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4057:d66caa8f4125": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "高屏分會居家醫療照護整合計畫影音課程",
+  "points": [
+   "5/10（日）下午1點至5點，於高雄市中醫師公會會館上課",
+   "由中執會高屏分會辦理居家醫療照護整合計畫影音課程",
+   "需事先報名，不接受現場報名"
+  ],
+  "audience": null,
+  "action": "事先透過報名連結完成報名",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "居家醫療照護整合計畫影音課程",
+   "organizer": "中執會高屏分會",
+   "start": "2026-05-10",
+   "end": "2026-05-10",
+   "time": "下午13:00至下午17:00",
+   "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
+   "online": false,
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://reurl.cc/X25q8g",
+   "registerDeadline": null,
+   "regions": [
+    "高屏區"
+   ],
+   "project": "居家醫療照護整合",
+   "sessions": null
+  }
+ },
+ "4053:1c04a7b31684": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "中執會台北區居家課程：2026/6/7 實體看影片上課",
+  "points": [
+   "2026/6/7（日）13:00-17:00，於台北市中醫師公會實體上課（看影片）。",
+   "僅有修習資格，無法申請繼續教育點數。",
+   "報名費800元，報名截止日為2026/6/3，額滿提前截止。"
+  ],
+  "audience": null,
+  "action": "於 2026/6/3 前完成報名並繳交報名費800元。",
+  "deadline": "2026-06-03",
+  "effective": null,
+  "course": {
+   "name": "居家課程資訊",
+   "organizer": "中執會台北區分會",
+   "start": "2026-06-07",
+   "end": "2026-06-07",
+   "time": "13:00-17:00",
+   "location": "台北市中醫師公會",
+   "online": false,
+   "credits": "僅有修習資格，無法申請繼續教育點數",
+   "fee": "報名費800元",
+   "registerUrl": "https://reurl.cc/K823Om",
+   "registerDeadline": "2026-06-03",
+   "regions": [
+    "台北區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4052:2d97983ab6cd": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "照護機構課程 6/7 開課，可積分及 PGY 學時",
+  "points": [
+   "6/7（日）08:30-12:40，台北市中醫師公會實體現場加線上上課。",
+   "可申請繼續教育點數及 PGY 學習時數。",
+   "報名費 800 元，積分費 400 元。",
+   "6/3 截止報名，額滿提前截止。"
+  ],
+  "audience": null,
+  "action": "報名參加照護機構課程。",
+  "deadline": "2026-06-03",
+  "effective": null,
+  "course": {
+   "name": "照護機構課程",
+   "organizer": "中執會台北區分會",
+   "start": "2026-06-07",
+   "end": "2026-06-07",
+   "time": "08:30-12:40",
+   "location": "台北市中醫師公會",
+   "online": true,
+   "credits": "可申請繼續教育點數及PGY學習時數",
+   "fee": "報名費800元/積分費400元",
+   "registerUrl": "https://reurl.cc/eVlYbx",
+   "registerDeadline": "2026-06-03",
+   "regions": [
+    "台北區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "4051:0f9fd873dec1": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "照護機構中醫醫療照護課程（台北區，6/7）",
+  "points": [
+   "6/7（日）08:30-12:40，地點為台北市中醫師公會。",
+   "上課方式為實體現場加線上上課。",
+   "可申請繼續教育點數及 PGY 學習時數。",
+   "報名費 800 元，積分費 400 元；2026-06-03 截止，額滿提前截止。"
+  ],
+  "audience": null,
+  "action": "於 2026-06-03 前透過報名網址報名課程。",
+  "deadline": "2026-06-03",
+  "effective": null,
+  "course": {
+   "name": "照護機構課程資訊",
+   "organizer": "中執會台北區分會",
+   "start": "2026-06-07",
+   "end": "2026-06-07",
+   "time": "08:30-12:40",
+   "location": "台北市中醫師公會",
+   "online": true,
+   "credits": "可申請繼續教育點數及PGY學習時數",
+   "fee": "報名費800元／積分費400元",
+   "registerUrl": "https://reurl.cc/eVlYbx",
+   "registerDeadline": "2026-06-03",
+   "regions": [
+    "台北區"
+   ],
+   "project": "照護機構中醫醫療照護",
+   "sessions": null
+  }
+ },
+ "4037:6c9c1f8ed861": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "中醫門診專案繼續教育研討會（桃園，5/31）",
+  "points": [
+   "5/31（日）在桃園市中醫師公會教育會館開課，分上午、下午兩場。",
+   "上課不提供積分，但有PGY學時；已上過課者不需再報名。",
+   "需親自出席，嚴禁代簽名代上課；行政或護理師得繳費旁聽。"
+  ],
+  "audience": "中醫師（下午場限醫院中醫部且執業滿3年以上）",
+  "action": "於4/30前網路報名並匯款，親自出席上課。",
+  "deadline": "2026-04-30",
+  "effective": null,
+  "course": {
+   "name": "中醫門診總額特定門診專案計畫繼續教育研討會",
+   "organizer": "中華民國中醫師公會全國聯合會（承辦：中醫門診醫療服務審查執行會北區分會）",
+   "start": "2026-05-31",
+   "end": "2026-05-31",
+   "time": "08:30-17:00",
+   "location": "桃園市中醫師公會教育會館（桃園市中壢區中央西路1段120號19樓之1）",
+   "online": false,
+   "credits": "不提供積分（但有PGY學時）",
+   "fee": "上午場800元；下午場800元（限醫院中醫部且執業滿3年以上）；上午+下午1600元",
+   "registerUrl": "https://forms.gle/F9UVZM2wqt3igxdo6",
+   "registerDeadline": "2026-04-30",
+   "regions": [
+    "北區"
+   ],
+   "project": "中醫門診總額特定門診專案計畫",
+   "sessions": [
+    {
+     "region": "北區",
+     "date": "2026-05-31",
+     "time": "08:30-12:30",
+     "location": "桃園市中醫師公會教育會館",
+     "fee": "800元",
+     "registerDeadline": "2026-04-30",
+     "registerUrl": "https://forms.gle/F9UVZM2wqt3igxdo6",
+     "contact": null,
+     "note": "含特定癌症、慢性腎臟病、孕產照護等計畫"
+    },
+    {
+     "region": "北區",
+     "date": "2026-05-31",
+     "time": "13:30-17:00",
+     "location": "桃園市中醫師公會教育會館",
+     "fee": "800元（限醫院中醫部且執業滿3年以上）",
+     "registerDeadline": "2026-04-30",
+     "registerUrl": "https://forms.gle/F9UVZM2wqt3igxdo6",
+     "contact": null,
+     "note": "限醫院中醫部之中醫師，且執業滿3年以上"
+    }
+   ]
+  }
+ },
+ "4002:aa86c81e76f2": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "中區分會專案影音課程 115/2/1、8/16 報名",
+  "points": [
+   "2/1、8/16 上午為中醫門診總額專案、下午為西醫住院專案，皆為影音課程。",
+   "地點為臺中市中醫師公會，實體上課，每場限50名。",
+   "影音課程不提供積分，僅有修習資格，無法申請繼續教育點數。",
+   "已取得該課程資格者不需再報名；報名費800元/場，額滿提前截止。"
+  ],
+  "audience": null,
+  "action": "依欲參加場次於截止日前至該場報名網址報名並繳費800元（2/1場截止 2026-01-23，8/16場截止 2026-08-07）。",
+  "deadline": "2026-01-23",
+  "effective": null,
+  "course": {
+   "name": "中醫門診總額特定門診專案計畫、西醫住院暨醫院專案計畫影音課程",
+   "organizer": "中執會中區分會",
+   "start": "2026-02-01",
+   "end": "2026-08-16",
+   "time": "上午 09:00至12:30（08:30報到）中醫門診總額專案；下午 13:00至16:30（12:30報到）西醫住院暨醫院專案",
+   "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）",
+   "online": false,
+   "credits": "不提供積分，僅有修習資格，無法申請繼續教育點數",
+   "fee": "800元/場",
+   "registerUrl": null,
+   "registerDeadline": null,
+   "regions": [
+    "中區"
+   ],
+   "project": "中醫門診總額特定門診專案計畫；西醫住院暨醫院專案計畫",
+   "sessions": [
+    {
+     "region": "中區",
+     "date": "2026-02-01",
+     "time": "上午 09:00至12:30（08:30報到）中醫門診總額專案；下午 13:00至16:30（12:30報到）西醫住院暨醫院專案",
+     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）",
+     "fee": "800元/場",
+     "registerDeadline": "2026-01-23",
+     "registerUrl": "https://forms.gle/1T45b5vbKm8A6MRQ7",
+     "contact": null,
+     "note": "每場限50名；僅有修習資格，無繼續教育積分"
+    },
+    {
+     "region": "中區",
+     "date": "2026-08-16",
+     "time": "上午 09:00至12:30（08:30報到）中醫門診總額專案；下午 13:00至16:30（12:30報到）西醫住院暨醫院專案",
+     "location": "臺中市中醫師公會（臺中市北區崇德路一段156號11樓之5）",
+     "fee": "800元/場",
+     "registerDeadline": "2026-08-07",
+     "registerUrl": "https://forms.gle/BrF164hZZapUJViD7",
+     "contact": null,
+     "note": "每場限50名；僅有修習資格，無繼續教育積分"
+    }
+   ]
+  }
+ },
+ "3954:be848930bcdb": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "感染管控、針灸SOP與性別議題研討會",
+  "points": [
+   "11/23於臺中中山醫學大學實體上課（限90人），亦提供線上直播。",
+   "全程出席並通過課後測驗，可取得感控計畫與針灸SOP各6學時。",
+   "可申請繼續教育積分8點（感控3、品質3、性別1、專業1）。",
+   "報名截止為114/11/14，額滿提前截止，當天不受理現場報名。"
+  ],
+  "audience": null,
+  "action": "於截止日前透過報名表單報名並繳費。",
+  "deadline": "2025-11-14",
+  "effective": null,
+  "course": {
+   "name": "中醫院所感染管控與針灸SOP暨性別議題研討會",
+   "organizer": null,
+   "start": "2025-11-23",
+   "end": "2025-11-23",
+   "time": "08:30-17:00（08:00開始報到）",
+   "location": "中山醫學大學正心樓0213教室（臺中市南區建國北路一段110號）",
+   "online": true,
+   "credits": "感控計畫課程6學時、針灸標準作業程序課程6學時；繼續教育積分8點：感控3點、品質3點、性別1點、專業1點；負責醫師基本訓練課程8學時：感染控制3學時、醫學倫理/醫學法規1學時、衛生政策1學時、醫療品質2學時、實證醫學1學時",
+   "fee": "實體課程：申請積分$1,800（報名費+點數費），不申請積分$1,000；直播課程：申請積分$1,600，不申請積分$800",
+   "registerUrl": "https://forms.gle/vxUZ66AFAUkzvW616",
+   "registerDeadline": "2025-11-14",
+   "regions": null,
+   "project": "感控暨針灸 SOP",
+   "sessions": null
+  }
+ },
+ "3951:616e6035c8f5": {
+  "topics": [
+   "course",
+   "nhi"
+  ],
+  "hidden": false,
+  "title": "居家課程 114/11/23 台北市場次（現場＋線上）",
+  "points": [
+   "114/11/23（日）08:30-12:40，地點為台北市中醫師公會。",
+   "現場與線上同步上課，線上上課無證書。",
+   "本課程無積分。",
+   "報名連結見原文。"
+  ],
+  "audience": null,
+  "action": "至報名連結報名居家課程。",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "居家課程",
+   "organizer": null,
+   "start": "2025-11-23",
+   "end": "2025-11-23",
+   "time": "08:30-12:40",
+   "location": "台北市中醫師公會（台北市中正區青島西路11號3樓&14樓）",
+   "online": true,
+   "credits": "無積分",
+   "fee": null,
+   "registerUrl": "https://reurl.cc/8jZ4yR",
+   "registerDeadline": null,
+   "regions": [
+    "台北區"
+   ],
+   "project": "居家醫療照護整合",
+   "sessions": null
+  }
+ },
+ "3950:a62f87e0434b": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "針灸感控暨中藥安全課程（114/11/9）",
+  "points": [
+   "114/11/9（日）08:30-17:40 舉辦針灸感控暨中藥安全課程",
+   "地點為台北市中醫師公會（中正區青島西路11號3樓及14樓）",
+   "現場與直播同步進行，可申請積分"
+  ],
+  "audience": null,
+  "action": "透過報名連結報名參加",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "針灸感控暨中藥安全課程",
+   "organizer": null,
+   "start": "2025-11-09",
+   "end": "2025-11-09",
+   "time": "08:30-17:40",
+   "location": "台北市中醫師公會（台北市中正區青島西路11號3樓&14樓）",
+   "online": true,
+   "credits": "可申請積分",
+   "fee": null,
+   "registerUrl": "https://reurl.cc/vLXQVL",
+   "registerDeadline": null,
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
  }
 }

@@ -41,7 +41,7 @@ PROMPT = """你是台灣中醫臨床的編輯，讀者是忙碌的醫院與診�
 4. points：2～4 點重點，每點一句白話（40 字內），只寫原文有的內容。
 5. 以下欄位原文沒有就填 null，不要推測；日期一律 YYYY-MM-DD（民國年請換算西元）：
    audience（適用對象）、action（讀者要做什麼，一句話）、deadline（截止日）、effective（生效日）
-6. 若屬於課程（topics 含 course），填 course 物件：name、organizer、start、end（日期）、time（時段文字）、location、online（true/false/null）、credits（積分類別與點數，原文寫法）、fee、registerUrl（原文中的報名網址）、registerDeadline、regions（適用或開課的健保分區，可複選："台北區"、"北區"、"中區"、"南區"、"高屏區"、"東區"；全國或未限定填 ["全國"]；原文沒寫填 null）、project（屬於哪個健保專案計畫，例如「三高」「居家醫療照護整合」「特定疾病門診加強照護」「西醫住院輔助」「中藥用藥安全」「感控暨針灸 SOP」，沒有填 null）、sessions（一則公告列出多場次時，每場一筆 {region, date, time, location}，最多 12 筆；只有一場或沒寫填 null）；否則 course 為 null。
+6. 若屬於課程（topics 含 course），填 course 物件：name、organizer、start、end（日期）、time（時段文字）、location、online（true/false/null）、credits（積分類別與點數，原文寫法）、fee、registerUrl（原文中的報名網址）、registerDeadline、regions（適用或開課的健保分區，可複選："台北區"、"北區"、"中區"、"南區"、"高屏區"、"東區"；全國或未限定填 ["全國"]；原文沒寫填 null）、project（屬於哪個健保專案計畫，例如「三高」「居家醫療照護整合」「特定疾病門診加強照護」「西醫住院輔助」「中藥用藥安全」「感控暨針灸 SOP」，沒有填 null）、sessions（一則公告列出多場次或分區各自開課時，每場一筆 {region, date, time, location, fee, registerDeadline, registerUrl, contact, note}，最多 12 筆；fee、registerDeadline、registerUrl、contact（聯絡人與電話）都照該場原文填，沒寫填 null；note 寫該場特有的事項，例如該區可申請的學時，30 字內；只有一場或沒寫填 null）；否則 course 為 null。
 7. 只輸出 JSON，不要任何說明文字。格式：
 {"topics":[],"hidden":false,"title":"","points":[],"audience":null,"action":null,"deadline":null,"effective":null,"course":null}
 
@@ -112,6 +112,12 @@ def verify(d, source_text, notes):
         for ss in c.get("sessions") or []:
             if isinstance(ss, dict):
                 check(ss, "date", "date")
+                check(ss, "registerDeadline", "date")
+                check(ss, "registerUrl", "url")
+                sf = ss.get("fee")
+                if sf and re.search(r"\d", str(sf)) and not any(num in src for num in re.findall(r"\d[\d,]*", str(sf))):
+                    notes.append(f"清除 session fee={sf}")
+                    ss["fee"] = None
         fee = c.get("fee")
         if fee and re.search(r"\d", str(fee)) and not any(num in src for num in re.findall(r"\d[\d,]*", str(fee))):
             notes.append(f"清除 fee={fee}")

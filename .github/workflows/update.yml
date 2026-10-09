@@ -44,6 +44,7 @@ jobs:
           python scripts/plan_diffs_all.py
           python scripts/enrich.py --limit 40
           python scripts/credits.py
+          python scripts/attachments.py --limit 10
           tail -2 raw/enrich-log.txt || true
       - name: 有變動才提交
         run: |

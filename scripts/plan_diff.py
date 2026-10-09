@@ -86,6 +86,11 @@ def main():
             kept.append(c)
         else:
             log.warning("丟棄（原文對不上）：%s｜%s", c.get("topic"), c.get("quote"))
+    # 頁碼：引句出現在新版 PDF 的第幾頁（pdftotext 以 \f 分頁）
+    newpages = [re.sub(r"\s+", "", t) for t in texts["new"].split("\f")]
+    for c in kept:
+        q = re.sub(r"\s+", "", c.get("quote") or "")
+        c["page"] = next((i + 1 for i, t in enumerate(newpages) if q and q in t), None)
     res["changes"] = kept
     res.update({"newId": args.new, "oldId": args.old, "newTitle": new["title"], "oldTitle": old["title"],
                 "newUrl": new["url"], "oldUrl": old["url"]})

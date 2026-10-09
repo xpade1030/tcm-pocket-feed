@@ -43,6 +43,7 @@ jobs:
           if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then echo "未設定 CLAUDE_CODE_OAUTH_TOKEN，跳過 AI 整理"; exit 0; fi
           python scripts/plan_diffs_all.py
           python scripts/enrich.py --limit 40
+          python scripts/credits.py
           tail -2 raw/enrich-log.txt || true
       - name: 有變動才提交
         run: |

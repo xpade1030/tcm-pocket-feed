@@ -1,0 +1,301 @@
+{
+ "4192:5e65dd51825a": {
+  "items": [
+   {
+    "system": "pgy",
+    "type": "醫務行政",
+    "amount": 2.5,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "衛生政策",
+    "amount": 2.5,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "實證醫學",
+    "amount": 1.5,
+    "unit": "學時"
+   }
+  ],
+  "note": "本課程為影音課程，無繼續教育學分，僅具認證資格；僅限北區醫師報名，已上過課者不需再報名。"
+ },
+ "4060:cf79d4fc2be2": {
+  "items": [
+   {
+    "system": "pgy",
+    "type": "總計",
+    "amount": null,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "醫務行政",
+    "amount": 2.5,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "衛生政策",
+    "amount": 2.5,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "實證醫學",
+    "amount": 1.5,
+    "unit": "學時"
+   },
+   {
+    "system": "ce",
+    "type": "總計",
+    "amount": null,
+    "unit": "點"
+   },
+   {
+    "system": "pgy",
+    "type": "總計",
+    "amount": null,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "醫務行政",
+    "amount": 2,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "衛生政策",
+    "amount": 2,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "實證醫學",
+    "amount": 2,
+    "unit": "學時"
+   }
+  ],
+  "note": "依各區課程而異：台北區和南區的 PGY 未寫數字，南區另可申請繼續教育點數（未寫數字）；北區只有 PGY 認證資格，無繼續教育學分；東區第 2 場原文寫「學分」，已視為 PGY 學時；中區及高屏區未列學時資訊。"
+ },
+ "4190:851986f27f61": {
+  "items": [
+   {
+    "system": "pgy",
+    "type": "總計",
+    "amount": null,
+    "unit": "學時"
+   },
+   {
+    "system": "program",
+    "type": "特定門診＋西醫住院專案",
+    "amount": null,
+    "unit": "學時"
+   }
+  ],
+  "note": "原文未寫明學時數；本課程為取得承作資格的影音課程，無法申請繼續教育學分。"
+ },
+ "4185:d476357b43fb": {
+  "items": [
+   {
+    "system": "mentor",
+    "type": "指導教師初次認證課程",
+    "amount": 7,
+    "unit": "小時"
+   }
+  ],
+  "note": "無繼續教育積分；上完課後仍須於10月31日前另提師資認證申請才能取得指導教師證書。"
+ },
+ "4189:1f993a26917c": {
+  "items": [
+   {
+    "system": "mentor",
+    "type": "初次認證7小時培訓課程(臨床醫學指導教師/中藥學指導教師)",
+    "amount": 7,
+    "unit": "小時"
+   }
+  ],
+  "note": "7小時培訓課程為初次認證師資所需，須於2026年10月31日前完成觀看與學習紀錄；原文未提及PGY學時或繼續教育積分。"
+ },
+ "4186:3f5ed651a55f": {
+  "items": [
+   {
+    "system": "program",
+    "type": "感染控制計畫課程",
+    "amount": 6,
+    "unit": "學時"
+   },
+   {
+    "system": "program",
+    "type": "針灸標準作業程序課程",
+    "amount": 6,
+    "unit": "學時"
+   },
+   {
+    "system": "ce",
+    "type": "感控",
+    "amount": 3,
+    "unit": "點"
+   },
+   {
+    "system": "ce",
+    "type": "品質",
+    "amount": 3,
+    "unit": "點"
+   },
+   {
+    "system": "ce",
+    "type": "性別",
+    "amount": 1,
+    "unit": "點"
+   },
+   {
+    "system": "ce",
+    "type": "專業",
+    "amount": 1,
+    "unit": "點"
+   },
+   {
+    "system": "pgy",
+    "type": "感染控制",
+    "amount": 3,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "醫學倫理/醫學法規",
+    "amount": 1,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "衛生政策",
+    "amount": 1,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "醫療品質",
+    "amount": 2,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "實證醫學",
+    "amount": 1,
+    "unit": "學時"
+   }
+  ],
+  "note": "需全程出席並通過課後測驗；實體與線上直播皆可，申請積分需另付點數費。"
+ },
+ "4182:beb816cca4c6": {
+  "items": [],
+  "note": "原文僅公告師資展延課程開放上課，未列出任何學時、積分或時數。"
+ },
+ "3170:9981d5de90c4": {
+  "items": [
+   {
+    "system": "pgy",
+    "type": "衛生政策",
+    "amount": 2,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "醫務行政",
+    "amount": 2,
+    "unit": "學時"
+   },
+   {
+    "system": "program",
+    "type": "居家醫療",
+    "amount": null,
+    "unit": "學時"
+   }
+  ],
+  "note": "PGY 學時僅北區課程原文有列；各區皆為影音課程，無繼續教育點數，只取得居家醫療修習資格。"
+ },
+ "2535:1658d73659c9": {
+  "items": [],
+  "note": "影音課程不提供積分，僅有修習資格，無法申請繼續教育點數；原文未列其他學時。"
+ },
+ "4175:e5fae9fd1aca": {
+  "items": [],
+  "note": "原文僅為針灸SOP感控及用藥安全上課日期的查詢連結，未列出任何學時或積分資訊。"
+ },
+ "4168:1d78d0d6cfde": {
+  "items": [
+   {
+    "system": "mentor",
+    "type": "創新教學導入",
+    "amount": 1,
+    "unit": "小時"
+   },
+   {
+    "system": "mentor",
+    "type": "教材製作",
+    "amount": 1,
+    "unit": "小時"
+   },
+   {
+    "system": "mentor",
+    "type": "溝通及輔導",
+    "amount": 1,
+    "unit": "小時"
+   },
+   {
+    "system": "mentor",
+    "type": "評估技巧",
+    "amount": 1,
+    "unit": "小時"
+   }
+  ],
+  "note": "僅限四年效期證書之指導教師，時數由教育學會登記，作為證書效期第四年展延申請之時數證明；本課程無繼續教育積分。"
+ },
+ "4154:c479a638a098": {
+  "items": [
+   {
+    "system": "ce",
+    "type": "總計",
+    "amount": null,
+    "unit": "點"
+   },
+   {
+    "system": "pgy",
+    "type": "總計",
+    "amount": null,
+    "unit": "學時"
+   }
+  ],
+  "note": "原文僅寫「提供繼續教育點數及PGY學時，詳見報名表」，未列具體數字；另提供護理師積分，不屬於所列制度。"
+ },
+ "4153:51e7b469111d": {
+  "items": [
+   {
+    "system": "program",
+    "type": "居家醫療",
+    "amount": null,
+    "unit": "學時"
+   }
+  ],
+  "note": "僅取得居家醫療課程修習資格，原文明說無法申請繼續教育點數，也未寫學時數。"
+ },
+ "4056:c770d4c4d665": {
+  "items": [
+   {
+    "system": "mentor",
+    "type": "基礎課程",
+    "amount": 7,
+    "unit": "小時"
+   }
+  ],
+  "note": "公告僅寫明臨床指導教師培訓基礎課程 7 小時（線上），其餘各課程學時需看附件彙整表，原文未列。"
+ },
+ "4084:28380f34b629": {
+  "items": [],
+  "note": "原文僅為研討會徵稿公告，未提及任何學時或積分資訊"
+ }
+}

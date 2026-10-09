@@ -37,6 +37,7 @@ PROMPT = """以下是台灣中醫師公會全聯會的課程公告原文。請�
 - 原文有總數也有細項時，只列細項（例如「繼續教育 8 點：感控 3、品質 3、性別 1、專業 1」→ 四筆）；只有總數時，type 填 "總計"。
 - 原文明說「無繼續教育學分」「不提供積分」的制度不要列。
 - unit 填原文用字：點、學時、小時。
+- 若各分區（台北區、北區、中區、南區、高屏區、東區）給的學時不同，每筆加 "region":"北區" 這類欄位；全部分區相同或沒分區就不要加 region。
 - 沒有任何學時資訊就回傳空陣列。
 
 輸出 JSON：{{"items":[{{"system":"pgy","type":"感染控制","amount":3,"unit":"學時"}}],"note":"一句話補充（例如：依各區課程而異），沒有則 null"}}
@@ -84,10 +85,11 @@ def verify(res, text):
             if not re.search(rf"(?<![\d.]){re.escape(s)}(?![\d.])", flat):
                 notes.append(f"數量對不上原文，改為 null：{it}")
                 it["amount"] = None
-        kept.append({"system": it["system"], "type": it["type"].strip(), "amount": it.get("amount"), "unit": it.get("unit")})
+        kept.append({"system": it["system"], "type": it["type"].strip(), "amount": it.get("amount"), "unit": it.get("unit"),
+                     **({"region": it["region"]} if it.get("region") in ("台北區", "北區", "中區", "南區", "高屏區", "東區") else {})})
     # 同一制度已有細項時，拿掉沒有數字的「總計」
-    detailed = {k["system"] for k in kept if k["type"] != "總計"}
-    kept = [k for k in kept if not (k["type"] == "總計" and k["amount"] is None and k["system"] in detailed)]
+    detailed = {(k["system"], k.get("region")) for k in kept if k["type"] != "總計"}
+    kept = [k for k in kept if not (k["type"] == "總計" and k["amount"] is None and (k["system"], k.get("region")) in detailed)]
     return {"items": kept, "note": res.get("note")}, notes
 
 
@@ -119,8 +121,8 @@ def main():
                 logf.write(line + "\n"); log.info(line)
                 CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
             r = cache[key]
-            detailed = {k["system"] for k in r["items"] if k["type"] != "總計"}
-            r["items"] = [k for k in r["items"] if not (k["type"] == "總計" and k["amount"] is None and k["system"] in detailed)]
+            detailed = {(k["system"], k.get("region")) for k in r["items"] if k["type"] != "總計"}
+            r["items"] = [k for k in r["items"] if not (k["type"] == "總計" and k["amount"] is None and (k["system"], k.get("region")) in detailed)]
             ai["course"]["creditItems"] = r["items"]
             if r.get("note"):
                 ai["course"]["creditNote"] = r["note"]

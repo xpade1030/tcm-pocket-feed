@@ -135,10 +135,14 @@ def list_digest(n):
             "project": proj, "audience": None, "action": None, "deadline": None, "effective": None, "course": None}
 
 
+TODAY_HINT = "今天是 {today}。points 與 action 只寫仍有效的資訊：已結束的場次、已過的截止日不要寫進 points（場次細節放 sessions 即可）。\n"
+
+
 def build_prompt(n):
     links = "\n".join(f"- {a['label']}：{a['url']}" for a in (n.get("attachments") or [])) or "（無）"
     prompt = PROMPT.replace("{category}", n["category"]).replace("{date}", n.get("date") or "") \
         .replace("{title}", n["title"]).replace("{body}", (n.get("body") or "（無內文，只有附件）")[:5000]).replace("{links}", links)
+    prompt = TODAY_HINT.format(today=datetime.now(TW).strftime("%Y-%m-%d")) + prompt
     return prompt, n["title"] + "\n" + (n.get("body") or "") + "\n" + links
 
 

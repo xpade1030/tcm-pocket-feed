@@ -3310,5 +3310,39 @@
   "deadline": null,
   "effective": null,
   "course": null
+ },
+ "4200:d21f6eb42104": {
+  "topics": [
+   "nhi"
+  ],
+  "hidden": false,
+  "title": "健保署檢送3則違規宣導案例，附件可參閱",
+  "points": [
+   "衛生福利部中央健康保險署發函檢送健保違規宣導案例，共3則。",
+   "目的是確保健保資源合理運用，保障良善醫事機構正當申報醫療費用。",
+   "完整案例內容請見附件 PDF。"
+  ],
+  "audience": null,
+  "action": null,
+  "deadline": null,
+  "effective": null,
+  "course": null
+ },
+ "4199:c5f0440a24e7": {
+  "topics": [
+   "law",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "健保署公告5年內不予特約之地址與期間",
+  "points": [
+   "衛福部中央健康保險署公告，列出5年內不予特約的地址及起訖期間。",
+   "本公告依健保署115年10月14日函辦理，詳細地址與期間請見附件PDF。"
+  ],
+  "audience": null,
+  "action": "請至附件查閱5年內不予特約的地址與起訖期間，確認是否涉及自身院所。",
+  "deadline": null,
+  "effective": null,
+  "course": null
  }
 }

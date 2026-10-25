@@ -3434,5 +3434,897 @@
    "project": null,
    "sessions": null
   }
+ },
+ "taecm-393:87feb435e8f5": {
+  "kind": "list",
+  "topics": [
+   "nhi"
+  ],
+  "hidden": false,
+  "title": "115年度中醫醫療機構負責醫師指導師資─培訓資格 推薦審查通過名單",
+  "points": [
+   "本期承作／受訓名單已公布，可至原文查詢自己或院所是否在列。"
+  ],
+  "project": null,
+  "audience": null,
+  "action": null,
+  "deadline": null,
+  "effective": null,
+  "course": null
+ },
+ "taecm-413:03fbcde00d54": {
+  "topics": [
+   "apply"
+  ],
+  "hidden": false,
+  "title": "臨床醫學指導教師家醫科教學專長加註申請",
+  "points": [
+   "需具效期內臨床醫學指導教師證書，並完成6小時家醫科教學實務訓練。",
+   "申請表填寫後以電子郵件寄至association.cme@gmail.com，主旨註明『申請家醫科註記』。",
+   "通過審核後，郵寄紙本證書予認證單位蓋章；若為今年度展延直接加註蓋章後寄回。"
+  ],
+  "audience": "有效期內的臨床醫學指導教師",
+  "action": "填寫申請表以電子郵件寄至學會，11月20日前完成。",
+  "deadline": "2026-11-20",
+  "effective": null,
+  "course": null
+ },
+ "taecm-412:37ed1ebc04ad": {
+  "topics": [
+   "apply"
+  ],
+  "hidden": false,
+  "title": "臨床醫學指導教師家醫科教學專長認證申請（實務經歷抵免）",
+  "points": [
+   "持有效期內臨床醫學指導教師證書，曾參與衛福部社區醫療、居家照護整合、不足地區改善等指定計畫者可申請。",
+   "申請期限至2026年11月20日，線上提交申請表、授權書與佐證文件至學會信箱。",
+   "學會審核通過後，申請人需郵寄紙本證書至認證單位完成加註。"
+  ],
+  "audience": "具備效期內臨床醫學指導教師證書，並有參與指定衛福部計畫經歷的中醫師",
+  "action": "下載申請表與授權書，整理佐證文件，於2026年11月20日前e-mail送出申請。",
+  "deadline": "2026-11-20",
+  "effective": null,
+  "course": null
+ },
+ "taecm-410:a44d6a65a1fb": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫OSCE考官認證展延申請",
+  "points": [
+   "申請期限11月30日止。證書效期須在2023/1/1～2026/12/31，或2022/1/1～2025/12/31且未曾展延。",
+   "符合三項條件之一：擔任考官職務累計2梯次以上、教學醫院評分累計4小時以上、撰寫教案2例以上。",
+   "email寄送申請表、授權書（可不附）、展延條件佐證資料至association.cme@gmail.com。",
+   "學會審核後經中醫藥司確認，預計12月底郵寄新證書。"
+  ],
+  "audience": "持有中醫OSCE考官證書且效期符合規定的中醫師",
+  "action": "檢視證書效期，於11月30日前備妥申請文件email至學會",
+  "deadline": "2026-11-30",
+  "effective": null,
+  "course": null
+ },
+ "taecm-409:2e8b5dbb8e17": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "指導師資初次認證申請",
+  "points": [
+   "須已通過推薦，於113-115年度間完成師資課程（7+8小時）。",
+   "申請期限至2026年10月31日，填申請表及授權同意書，email至association.cme@gmail.com申請。",
+   "學會審核後送中醫藥司確認，預計12月中郵寄紙本證書。",
+   "證書效期四年內不得修改放棄教學專長，務必確認選擇無誤再申請。"
+  ],
+  "audience": "已獲推薦培訓資格且完成師資課程的中醫師",
+  "action": "填寫申請表及授權同意書，email至學會信箱申請認證",
+  "deadline": "2026-10-31",
+  "effective": null,
+  "course": null
+ },
+ "taecm-408:d7ae936870ef": {
+  "topics": [
+   "apply",
+   "course"
+  ],
+  "hidden": false,
+  "title": "115年度指導師資認證展延申請",
+  "points": [
+   "四年內完成16小時課程（涵蓋至少四大類別）為申請資格。",
+   "線上課程已通過可確認申請，學會課程結束後統一補時數。",
+   "證書發出後四年效期內不得修改、放棄，須審慎選擇教學專長。",
+   "提交展延申請表與授權書至協會，審核後經中醫藥司確認寄發證書。"
+  ],
+  "audience": "臨床醫學指導教師或中藥學指導教師",
+  "action": "填寫展延申請表及授權書，寄至協會信箱",
+  "deadline": "2026-10-31",
+  "effective": null,
+  "course": null
+ },
+ "taecm-407:144e44ab4a76": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "初次認證指導教師課程報名中（至10月15日截止）",
+  "points": [
+   "資格限制：初次認證指導教師（臨床醫學或中藥學），且非115年推薦或申請通過者，或需重新上課者",
+   "課程形式：線上課程9月24日至10月31日開放，非直播自主進度，共7小時",
+   "後續步驟：參與課程後須於10月31日前提出初次認證申請，課程完成不自動取得證書",
+   "無教育積分：本課程不申請繼續教育積分"
+  ],
+  "audience": "初次認證指導教師（臨床醫學或中藥學教師）",
+  "action": "符合資格者於10月15日前報名，參與課程後提出初次認證申請",
+  "deadline": "2026-10-15",
+  "effective": "2026-09-24",
+  "course": {
+   "name": "115年度初次認證指導教師課程",
+   "organizer": "台灣中醫醫學教育學會",
+   "start": "2026-09-24",
+   "end": "2026-10-31",
+   "time": "自主進度（開放9月24日至10月31日）",
+   "location": "線上",
+   "online": true,
+   "mode": "線上",
+   "restriction": "初次認證指導教師（臨床醫學或中藥學），且非115年推薦或申請通過者，或需重新上課者",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/pAhPY6yT7w1JbUvg9",
+   "registerDeadline": "2026-10-15",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-406:b28aafcce5b2": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "提升教師教學技能培育課程正式開放上課",
+  "points": [
+   "課程平台已於2026年9月16日開放，開放期間至10月31日",
+   "報名並通過資格確認的學員可用通知信帳號密碼登入平台上課",
+   "部分學員尚未收到通知信，學會將持續寄送，無須重複詢問",
+   "待通知信全數寄送完成後若仍未收到，再與學會聯繫"
+  ],
+  "audience": "已報名並通過資格確認之學員",
+  "action": "登入平台開始上課",
+  "deadline": null,
+  "effective": "2026-09-16",
+  "course": {
+   "name": "提升教師教學技能培育課程",
+   "organizer": "台灣中醫醫學教育學會",
+   "start": "2026-09-16",
+   "end": "2026-10-31",
+   "time": null,
+   "location": "線上",
+   "online": true,
+   "mode": "線上",
+   "restriction": null,
+   "credits": null,
+   "fee": null,
+   "registerUrl": null,
+   "registerDeadline": null,
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-404:ef2c3f2f36e7": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "115年度指導教師教學技能培育課程報名（第六波至10/22截止）",
+  "points": [
+   "限四年效期証書的指導教師報名，初次認證者無須參與。",
+   "課程共4小時，涵蓋創新教學、教材製作、溝通輔導、評估技巧各1小時。",
+   "無繼續教育積分，但時數將作為指導教師證書展延申請時的時數證明。",
+   "第六波報名截止10月22日，篩選名單於10月23日建置，通過後由電子郵件通知帳號。"
+  ],
+  "audience": "四年效期証書之指導教師（臨床醫學、中藥學指導教師）",
+  "action": "於10月22日前填妥報名表單完成報名",
+  "deadline": "2026-10-22",
+  "effective": null,
+  "course": {
+   "name": "115年度提升教師教學技能培育課程",
+   "organizer": "台灣中醫醫學教育學會",
+   "start": null,
+   "end": null,
+   "time": null,
+   "location": null,
+   "online": true,
+   "mode": "線上",
+   "restriction": "限四年效期証書指導教師（臨床醫學、中藥學）；初次認證者無須報名",
+   "credits": "4小時（無繼續教育積分）",
+   "fee": null,
+   "registerUrl": "https://forms.gle/HLXhd5ugCfUhSCZKA",
+   "registerDeadline": "2026-10-22",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-403:2135dcaac6f4": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中藥臨床教學實務訓練課程（臺北市立聯合醫院）",
+  "points": [],
+  "audience": "新申請中藥學指導教師、現任中藥臨床指導教師（申請展延者）",
+  "action": null,
+  "deadline": "2026-08-21",
+  "effective": "2026-09-06",
+  "course": {
+   "name": "中藥臨床教學實務訓練課程",
+   "organizer": "臺北市立聯合醫院",
+   "start": "2026-09-06",
+   "end": "2026-09-06",
+   "time": "08:40-17:10",
+   "location": "臺北市立聯合醫院林森中醫昆明院區中醫中心8樓多功能教室（臺北市萬華區昆明街100號8樓）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "限新申請及展延中藥學指導教師",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://reurl.cc/qaZ2XE",
+   "registerDeadline": "2026-08-21",
+   "regions": [
+    "台北區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-402:a3a2b74fe475": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫臨床教學實務訓練課程（高雄長庚，9/20）",
+  "points": [
+   "針對申請中醫臨床指導教師資格認證或提升教學技能之醫師開課。",
+   "課程時間9月20日全天（07:45-17:00），地點高雄長庚紀念醫院復健大樓三樓第一會議室。",
+   "線上報名，截止9月11日（星期五）或額滿50位為止。"
+  ],
+  "audience": "申請中醫臨床指導教師資格認證之新進醫師、申請提升教師教學技能培育課程之展延醫師",
+  "action": "於9月11日前線上報名",
+  "deadline": "2026-09-11",
+  "effective": "2026-09-20",
+  "course": {
+   "name": "中醫臨床教學實務訓練課程",
+   "organizer": "長庚醫療財團法人高雄長庚紀念醫院中醫部",
+   "start": "2026-09-20",
+   "end": "2026-09-20",
+   "time": "07:45-17:00",
+   "location": "高雄長庚紀念醫院復健大樓三樓第一會議室",
+   "online": false,
+   "mode": "實體",
+   "restriction": "限申請臨床指導教師資格認證或提升教學技能之醫師",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://tinyurl.com/274plj9m",
+   "registerDeadline": "2026-09-11",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-401:0378f56ea5a0": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫家庭社區醫學教學實務訓練課程",
+  "points": [
+   "課程時間8月30日09:00-16:00，地點臺北市立聯合醫院中醫中心8樓。",
+   "限具指導醫師資格者報名，線上報名方式，限額30人。",
+   "報名截止8月20日中午12點，聯絡蔡小姐助理02-23887088#3808。"
+  ],
+  "audience": "具有指導醫師資格者",
+  "action": "於8月20日中午前完成線上報名",
+  "deadline": "2026-08-20",
+  "effective": null,
+  "course": {
+   "name": "中醫家庭暨社區醫學科教學實務訓練課程",
+   "organizer": "臺北市立聯合醫院中醫醫學部",
+   "start": "2026-08-30",
+   "end": "2026-08-30",
+   "time": "09:00-16:00",
+   "location": "臺北市立聯合醫院中醫中心8樓多功能教室（臺北市萬華區昆明街100號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "限具指導醫師資格者",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/f8Xj6xXtPU9yrFxN9",
+   "registerDeadline": "2026-08-20",
+   "regions": [
+    "台北區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-400:04605765afe2": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫臨床教學實務訓練課程（8月30日）",
+  "points": [
+   "課程由中國醫藥大學附設醫院中醫臨床技能中心主辦，衛福部指導。",
+   "8月30日(日)於台中集思台中文心會議中心舉辦，時間08:00-16:30。",
+   "中區新申請指導教師優先錄取；其他區新申請者次之；現任教師展延申請再次之。",
+   "線上報名限60人，8月20日截止。"
+  ],
+  "audience": "申請或展延中醫臨床指導教師資格的醫師",
+  "action": "於8月20日前線上報名",
+  "deadline": "2026-08-20",
+  "effective": null,
+  "course": {
+   "name": "中醫臨床教學實務訓練課程",
+   "organizer": "中國醫藥大學附設醫院中醫臨床技能中心",
+   "start": "2026-08-30",
+   "end": "2026-08-30",
+   "time": "08:00-16:30",
+   "location": "集思台中文心會議中心",
+   "online": false,
+   "mode": "實體",
+   "restriction": "中區新申請指導教師優先；其他區新申請者次之；現任教師展延申請再次之",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/THrmPhSa3gjoSfMW8",
+   "registerDeadline": "2026-08-20",
+   "regions": [
+    "中區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-399:f8a1e3dd3f0a": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "展延課程延期開課通知",
+  "points": [
+   "原預定於8月中旬開放的展延課程將延後開課。",
+   "課程報名時間亦將一併順延。",
+   "具體開課及報名資訊待確認後另行公告。"
+  ],
+  "audience": null,
+  "action": "留意學會網站，取得後續課程資訊",
+  "deadline": null,
+  "effective": null,
+  "course": null
+ },
+ "taecm-397:369d590919e5": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中藥臨床指導教師訓練課程（中國醫藥大學附設醫院）",
+  "points": [
+   "新申請或現任中藥臨床指導教師（含需展延時數者）可報名。",
+   "2026年8月23日(星期日)08:30-17:00課程，美德醫療大樓2樓中醫部會議室舉行。",
+   "8月5日前報名截止，限額40人。"
+  ],
+  "audience": "新申請或現任中藥臨床指導教師",
+  "action": "於8月5日前完成線上報名。",
+  "deadline": "2026-08-05",
+  "effective": "2026-08-23",
+  "course": {
+   "name": "中藥臨床教學實務訓練課程",
+   "organizer": "中國醫藥大學附設醫院中醫臨床技能中心",
+   "start": "2026-08-23",
+   "end": "2026-08-23",
+   "time": "08:30-17:00",
+   "location": "美德醫療大樓2樓中醫部會議室",
+   "online": false,
+   "mode": "實體",
+   "restriction": "新申請或現任中藥臨床指導教師",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/q4Nn5GmyAWbUfhaf6",
+   "registerDeadline": "2026-08-05",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-396:c24bc01ce4ce": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫家庭暨社區醫學科教學實務訓練課程",
+  "points": [
+   "培訓欲加註家醫科的臨床醫學指導教師之教學實務課程。",
+   "課程於8月16日全天舉辦（08:30-16:00）。",
+   "採線上報名，即日起至8月5日下午5時截止，限50人。",
+   "參加者需具備衛福部認證有效期內之臨床醫學指導教師資格。"
+  ],
+  "audience": "具備衛福部認證之臨床醫學指導教師資格、欲加註家醫科者",
+  "action": "符合資格者請於8月5日下午5時前線上報名。",
+  "deadline": "2026-08-05",
+  "effective": null,
+  "course": {
+   "name": "中醫家庭暨社區醫學科教學實務訓練課程",
+   "organizer": "中國醫藥大學附設醫院中醫臨床技能中心",
+   "start": "2026-08-16",
+   "end": "2026-08-16",
+   "time": "08:30-16:00",
+   "location": "中國醫藥大學附設醫院美德醫療大樓2樓中醫部會議室",
+   "online": false,
+   "mode": "實體",
+   "restriction": "需具備衛福部認證臨床醫學指導教師資格且欲加註家醫科，限50人",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/4NQiyuJGTe3wjPba7",
+   "registerDeadline": "2026-08-05",
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-395:d7f1cdfc8b10": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "8月9日中醫婦科專科醫師師資培訓課程",
+  "points": [
+   "中醫婦科專科醫師師資培訓課程，8月9日全天舉辦，同時提供實體與線上參與方式",
+   "實體課程於台大校友會館3A會議室舉辦，限60人；線上課程限150人",
+   "8月3日截止報名，可掃描表單或電洽02-37651123、twtcmgyn@gmail.com"
+  ],
+  "audience": null,
+  "action": "於8月3日前至報名表單報名",
+  "deadline": "2026-08-03",
+  "effective": "2026-08-09",
+  "course": {
+   "name": "中醫婦科專科醫師師資培訓課程",
+   "organizer": "中華民國中醫婦科醫學會",
+   "start": "2026-08-09",
+   "end": "2026-08-09",
+   "time": "08:40-17:30",
+   "location": "台大校友會館3A會議室",
+   "online": true,
+   "mode": "實體＋線上",
+   "restriction": null,
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/dDNYD2gpvShi5xmo7",
+   "registerDeadline": "2026-08-03",
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-392:a13b9f32bf98": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫OSCE考官培訓實務課程",
+  "points": [
+   "課程日期8月2日（日）07:45~14:00，地點高雄長庚紀念醫院復健大樓3樓。",
+   "報名限已認證之中醫臨床醫學指導教師，7月24日截止，限額15人。",
+   "完成課程及4小時實評始完成完整考官培訓，提供參訓證明。",
+   "聯絡人馬惟翎助理07-7317123#3664或mawinnie17@gmail.com。"
+  ],
+  "audience": "已認證之中醫臨床醫學指導教師",
+  "action": "符合資格者於7月24日前至報名網址完成線上報名",
+  "deadline": "2026-07-24",
+  "effective": "2026-08-02",
+  "course": {
+   "name": "中醫OSCE考官培訓實務訓練課程",
+   "organizer": "台灣中醫臨床技能學會、高雄長庚紀念醫院中醫部",
+   "start": "2026-08-02",
+   "end": "2026-08-02",
+   "time": "07:45-14:00",
+   "location": "高雄長庚紀念醫院復健大樓3樓第三會議室",
+   "online": false,
+   "mode": "實體",
+   "restriction": "限已認證之中醫臨床醫學指導教師",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/kThJWh7TxjrYGw386",
+   "registerDeadline": "2026-07-24",
+   "regions": [
+    "高屏區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-391:63001783f1d8": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "7月26日中醫家庭醫學教學實務訓練課程",
+  "points": [
+   "課程為115年7月26日（星期日）09:00至16:40，於花蓮慈濟醫院大愛樓舉辦，實體上課。",
+   "對象限已獲臨床醫學指導教師證書欲加註家醫科者，或申請提升教師教學技能的展延醫師。",
+   "線上報名至7月23日截止，報名網址 https://forms.gle/YZ7o8rrEsYWDowkg6。",
+   "聯絡人莊貽萱助理，電話03-8561825#12429。"
+  ],
+  "audience": "已獲臨床醫學指導教師證書欲加註家醫科的醫師，或申請提升教師教學技能的展延醫師",
+  "action": "線上報名參加課程，截止至7月23日",
+  "deadline": "2026-07-23",
+  "effective": "2026-07-26",
+  "course": {
+   "name": "中醫家庭暨社區醫學科教學實務訓練課程",
+   "organizer": "花蓮慈濟醫院中醫臨床技能中心、花蓮慈濟醫院中醫部",
+   "start": "2026-07-26",
+   "end": "2026-07-26",
+   "time": "09:00-16:40",
+   "location": "花蓮慈濟醫院大愛樓二樓第一會議室（花蓮市中央路三段707號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "已獲臨床醫學指導教師證書欲加註家醫科的醫師，或申請提升教師教學技能的展延醫師",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/YZ7o8rrEsYWDowkg6",
+   "registerDeadline": "2026-07-23",
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-390:811881985119": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫臨床教學實務訓練課程（7月26日，台北）",
+  "points": [
+   "適合醫療機構訓練院所中醫師及對臨床教學有興趣的醫師參加",
+   "7月26日全天課程，時間08:30-17:00，地點台北市立聯合醫院中醫中心8樓",
+   "線上報名限50人，截止日為7月17日中午12:00或額滿為止"
+  ],
+  "audience": "中醫醫療機構訓練計畫訓練院所醫師及對臨床教學有興趣之中醫師",
+  "action": "於7月17日中午12:00前線上報名",
+  "deadline": "2026-07-17",
+  "effective": null,
+  "course": {
+   "name": "中醫臨床教學實務訓練課程",
+   "organizer": "臺北市立聯合醫院中醫醫學部",
+   "start": "2026-07-26",
+   "end": "2026-07-26",
+   "time": "08:30-17:00",
+   "location": "臺北市立聯合醫院中醫中心8樓多功能教室（台北市萬華區昆明街100號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "中醫醫療機構訓練院所醫師或對臨床教學有興趣者",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/rpuyiYx5uwwW2Z1TA",
+   "registerDeadline": "2026-07-17",
+   "contact": "蔡雯雯 助理 02-23887088#3808",
+   "regions": [
+    "台北區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-394:d3ed94b996fb": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫臨床師資培訓認證計畫 常見問題解答",
+  "points": [
+   "教育學會為師資培訓認證計畫開設諮詢專線與線上諮詢服務。",
+   "已整理115年1月至6月常見疑義成問答文件，可供下載參考。"
+  ],
+  "audience": null,
+  "action": "查閱問答文件或洽詢諮詢專線",
+  "deadline": null,
+  "effective": null,
+  "course": null
+ },
+ "taecm-389:c1377e16e444": {
+  "topics": [
+   "course"
+  ],
+  "hidden": true,
+  "title": "中藥學指導教師認證課程（花蓮7月12日）",
+  "points": [
+   "中藥臨床教學實務訓練課程，2026年7月12日09:10~17:00於花蓮慈濟醫院舉辦。",
+   "報名資格：2年臨床經驗的藥師或負責醫師級中醫師；由公會推薦審核者；已領證有效期至2026年底者。",
+   "由衛生福利部中醫藥司指導，花蓮慈濟醫院中醫部主辦。"
+  ],
+  "audience": "申請或展延中藥學指導教師資格的藥師或中醫師",
+  "action": null,
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "中藥臨床教學實務訓練課程",
+   "organizer": "佛教慈濟醫療財團法人花蓮慈濟醫院中醫部",
+   "start": "2026-07-12",
+   "end": "2026-07-12",
+   "time": "09:10~17:00",
+   "location": "佛教慈濟醫療財團法人花蓮慈濟醫院大愛二樓第一會議室（花蓮市中央路三段707號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "申請或展延中藥學指導教師資格者",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/JwE6pCCSTzamaSp96",
+   "registerDeadline": "2026-06-15",
+   "regions": [
+    "東區"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-388:8f30bf667cdc": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中藥臨床教學實務訓練課程──林口長庚紀念醫院",
+  "points": [
+   "針對申請中藥學指導教師資格或展延教學時數的藥師、中醫師開設。",
+   "8月16日（日）08:20-17:00於林口長庚醫學大樓1F第二會議室舉辦。",
+   "採線上報名，截止至8月11日17:00；聯絡人林昀珊小姐，電話03-3196200#3423。"
+  ],
+  "audience": "申請中藥學指導教師資格認證或展延教學時數的藥師、中醫師",
+  "action": "於報名網址填表，限期8月11日17:00前完成",
+  "deadline": "2026-08-11",
+  "effective": "2026-08-16",
+  "course": {
+   "name": "中藥臨床教學實務訓練課程",
+   "organizer": "長庚醫療財團法人林口長庚紀念醫院",
+   "start": "2026-08-16",
+   "end": "2026-08-16",
+   "time": "08:20-17:00",
+   "location": "林口長庚紀念醫院醫學大樓1F第二會議室（桃園市龜山區復興街5號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "申請指導教師資格認證或展延教學時數者",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/pBheccBpfyzCYy9r9",
+   "registerDeadline": "2026-08-11",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-387:72e9d11d6d91": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中藥臨床教學實務訓練課程—中藥學指導教師培訓",
+  "points": [
+   "新申請或現任中藥學指導教師可報名，現任教師報名可申請展延時數。",
+   "課程於8月16日08:50-17:10舉行，地點在高雄長庚紀念醫院復健大樓3樓。",
+   "線上報名截至7月25日或額滿50人為止。",
+   "聯絡人馬惟翎助理、郭姮均副科主任，電話07-7317123#3664。"
+  ],
+  "audience": "新申請中藥學指導教師、現任中藥學指導教師",
+  "action": "至線上報名網址填表，截至2026年7月25日或額滿為止。",
+  "deadline": "2026-07-25",
+  "effective": null,
+  "course": {
+   "name": "中藥臨床教學實務訓練課程",
+   "organizer": "高雄長庚紀念醫院中藥科",
+   "start": "2026-08-16",
+   "end": "2026-08-16",
+   "time": "08:50-17:10",
+   "location": "高雄市鳥松區大埤路123號高雄長庚紀念醫院復健大樓3樓第一會議室及第三會議室",
+   "online": false,
+   "mode": "實體",
+   "restriction": "新申請或現任中藥學指導教師；限額50人",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/GRd6r8StnVptuJJD6",
+   "registerDeadline": "2026-07-25",
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-386:b90057ba5f18": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫家庭社區醫學科教學實務訓練課程",
+  "points": [
+   "限具臨床醫學指導教師證書或申請提升教師教學技能展延之醫師報名。",
+   "課程於6月28日（星期日）上午8時至下午3時30分，在林口長庚醫院舉行。",
+   "採線上報名，截止日6月16日下午5點，限額60人。"
+  ],
+  "audience": "具臨床醫學指導教師證書之醫師、申請提升教師教學技能培育課程展延之醫師",
+  "action": "於6月16日下午5點前至報名網址線上報名",
+  "deadline": "2026-06-16",
+  "effective": "2026-06-28",
+  "course": {
+   "name": "中醫家庭暨社區醫學科教學實務訓練課程",
+   "organizer": "林口長庚紀念醫院",
+   "start": "2026-06-28",
+   "end": "2026-06-28",
+   "time": "08:00-15:30",
+   "location": "林口長庚紀念醫院醫學大樓1F第二會議室（桃園市龜山區復興街5號）",
+   "online": false,
+   "mode": null,
+   "restriction": "限具臨床醫學指導教師證書或申請提升教師教學技能培育課程展延之醫師",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/KZjZgrjiCSRX8Z4v5",
+   "registerDeadline": "2026-06-16",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-385:3299514bfab4": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫臨床指導教師認證課程（6月21日彰化）",
+  "points": [
+   "課程針對申請指導教師資格的新進醫師及申請教學技能提升的展延醫師，為期一天整日課程。",
+   "線上報名，限80人，截止至6月14日或額滿。",
+   "舉辦地點：彰化基督教醫院教學研究大樓11樓魏克思學術講堂。"
+  ],
+  "audience": "申請中醫臨床指導教師認證之新進醫師、申請提升教師教學技能培育課程之展延醫師",
+  "action": "即日起線上填表報名，截止6月14日。",
+  "deadline": "2026-06-14",
+  "effective": null,
+  "course": {
+   "name": "中醫臨床教學實務訓練課程",
+   "organizer": "彰化基督教醫院中醫部",
+   "start": "2026-06-21",
+   "end": "2026-06-21",
+   "time": "08:00-17:30",
+   "location": "彰化基督教醫院教學研究大樓11樓魏克思學術講堂（彰化市旭光路235號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "申請指導教師認證之新進醫師、申請教學技能提升之展延醫師",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/68pLBnJrtPNZkrEUA",
+   "registerDeadline": "2026-06-14",
+   "regions": null,
+   "project": null,
+   "sessions": null,
+   "contact": "孫子純助理 (04)7238595#4083 398390@cch.org.tw"
+  }
+ },
+ "taecm-384:a98a8b93312b": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫家庭暨社區醫學科教學實務訓練課程",
+  "points": [
+   "6月14日（日）08:30-16:00在彰化基督教醫院教學研究大樓11樓舉辦。",
+   "限具臨床醫學指導教師證書或申請教師教學技能培育課程的中醫師參加。",
+   "線上報名限80人，6月7日或額滿截止。"
+  ],
+  "audience": "具臨床醫學指導教師證書或申請教師教學技能培育課程的中醫師",
+  "action": "於6月7日前完成線上報名",
+  "deadline": null,
+  "effective": "2026-06-14",
+  "course": {
+   "name": "中醫家庭暨社區醫學科教學實務訓練課程",
+   "organizer": "彰化基督教醫院中醫部",
+   "start": "2026-06-14",
+   "end": "2026-06-14",
+   "time": "08:30-16:00",
+   "location": "彰化基督教醫院教學研究大樓11樓 魏克思學術講堂（彰化市旭光路235號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": null,
+   "credits": "繼續教育積分",
+   "fee": null,
+   "registerUrl": "https://reurl.cc/O65D8R",
+   "registerDeadline": null,
+   "regions": [
+    "中區"
+   ],
+   "project": null,
+   "sessions": null,
+   "contact": "孫子純助理，電話：04-7238595#4083，Email：398390@cch.org.tw"
+  }
+ },
+ "taecm-383:8d00a36f662a": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中藥臨床教學實務訓練課程（彰化、5月31日）",
+  "points": [
+   "培訓對象：新申請或現任中藥學指導教師。",
+   "課程時間05/31全天（08:50-17:10），地點彰化基督教醫院教學研究大樓10樓。",
+   "線上報名限招50人，聯絡何宜臻藥師組長(04)7238595 #4230。"
+  ],
+  "audience": "新申請或現任中藥學指導教師",
+  "action": null,
+  "deadline": "2025-05-15",
+  "effective": null,
+  "course": {
+   "name": "中藥臨床教學實務訓練課程",
+   "organizer": "彰化基督教醫院中醫部",
+   "start": "2026-05-31",
+   "end": "2026-05-31",
+   "time": "08:50-17:10",
+   "location": "彰化基督教醫院教學研究大樓10樓第二會議室（彰化市旭光路235號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "新申請或現任中藥學指導教師",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/M5uFFQyVeQG5ScM26",
+   "registerDeadline": "2025-05-15",
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-382:a7ca8eade1ff": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫家庭暨社區醫學教學實務訓練課程",
+  "points": [
+   "課程於 2026 年 5 月 31 日（日）08:40～16:10 舉辦",
+   "限具備教師證書或申請展延的醫師報名",
+   "線上報名，截止 5 月 15 日或額滿（限 40 人）",
+   "地點：高雄長庚紀念醫院復健大樓三樓第一會議室"
+  ],
+  "audience": "具備教師證書或申請展延的中醫師",
+  "action": "符合資格者至 5 月 15 日前線上報名，限額 40 人",
+  "deadline": "2026-05-15",
+  "effective": null,
+  "course": {
+   "name": "中醫家庭暨社區醫學教學實務訓練課程",
+   "organizer": "高雄長庚紀念醫院中醫部",
+   "start": "2026-05-31",
+   "end": "2026-05-31",
+   "time": "08:40~16:10",
+   "location": "高雄長庚紀念醫院復健大樓三樓第一會議室",
+   "online": false,
+   "mode": "實體",
+   "restriction": "具備教師證書或申請展延的中醫師",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/KQVza9NtPvVp4pxJ7",
+   "registerDeadline": "2026-05-15",
+   "regions": [
+    "高屏區"
+   ],
+   "project": null,
+   "sessions": null
+  }
  }
 }

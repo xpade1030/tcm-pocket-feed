@@ -21,7 +21,7 @@ LIST_RE = re.compile(r"名單|名冊|名錄")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("attachments")
 
-PROMPT = """以下是台灣中醫師公會全聯會一則公告的附件全文（可能是會議紀錄、函文、作業說明）。讀者是執業中醫師。
+PROMPT = """以下是台灣中醫界一則公告的附件全文（可能是會議紀錄、函文、作業說明）。讀者是執業中醫師。
 請整理「對中醫師有什麼影響」，重點放在：點值、支付標準與給付、申報規定、承作或收案資格、截止日期、需要配合辦理的事。
 與中醫無關的議題、議程程序、出席名單不要寫。
 
@@ -88,7 +88,7 @@ def main():
     WORK.mkdir(parents=True, exist_ok=True)
     cost, done = 0.0, 0
     with LOG.open("a", encoding="utf-8") as logf:
-        for item in sorted(digest["items"], key=lambda x: int(x["id"]), reverse=True):
+        for item in sorted(digest["items"], key=lambda x: (x.get("date") or "", x["id"]), reverse=True):
             n = notices.get(item["id"])
             ai = item.get("ai") or {}
             if not n or ai.get("kind") == "list" or LIST_RE.search(n["title"]) or item.get("planDiff"):

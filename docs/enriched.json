@@ -3344,5 +3344,95 @@
   "deadline": null,
   "effective": null,
   "course": null
+ },
+ "taecm-411:afbc0d91cc6f": {
+  "topics": [
+   "apply"
+  ],
+  "hidden": false,
+  "title": "115年中醫OSCE考官初次認證申請",
+  "points": [
+   "資格要求：臨床醫學指導教師認證有效，或教學醫院診所臨床教學滿五年",
+   "申請前須完成OSCE基本課程（4小時）、評分方法課程（2小時）、評分演練（4小時）",
+   "填寫申請表並寄至association.cme@gmail.com，截止日期2026年11月30日",
+   "學會審核後由衛福部中醫藥司確認，預計12月底郵寄紙本證書"
+  ],
+  "audience": "符合認證資格的臨床教師",
+  "action": "填寫申請表並於2026年11月30日前寄至association.cme@gmail.com",
+  "deadline": "2026-11-30",
+  "effective": null,
+  "course": null
+ },
+ "taecm-405:816ae48762f9": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "花蓮慈濟醫院中醫臨床教學實務訓練課程",
+  "points": [
+   "針對申請中醫指導教師認證或欲展延教學技能課程時數的醫師開設。",
+   "課程於2026年9月13日全天舉辦（07:40-16:00）。",
+   "地點為花蓮慈濟醫院大愛樓二樓第一會議室。",
+   "採線上報名，截止日期為2026年9月9日。"
+  ],
+  "audience": "申請中醫指導教師認證者、欲展延教學技能課程時數的指導教師",
+  "action": "於9月9日前上網填報名表。",
+  "deadline": "2026-09-09",
+  "effective": null,
+  "course": {
+   "name": "中醫臨床教學實務訓練課程",
+   "organizer": "花蓮慈濟醫院中醫臨床技能中心、花蓮慈濟醫院中醫部",
+   "start": "2026-09-13",
+   "end": "2026-09-13",
+   "time": "07:40-16:00",
+   "location": "花蓮慈濟醫院大愛樓二樓第一會議室（花蓮縣花蓮市中央路三段707號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "申請中醫指導教師認證者或欲展延教學技能課程時數者",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/DkhAgmz9iXDAm8Ad6",
+   "registerDeadline": "2026-09-09",
+   "regions": [
+    "全國"
+   ],
+   "project": null,
+   "sessions": null
+  }
+ },
+ "taecm-398:7414a53ff2b9": {
+  "topics": [
+   "course"
+  ],
+  "hidden": false,
+  "title": "中醫臨床教學實務訓練課程（8月30日）",
+  "points": [
+   "針對申請臨床指導教師資格的新進醫師，及申請教學技能課程展延的醫師開班",
+   "2026年8月30日星期日上午08:20至下午17:00，於林口長庚醫院舉辦",
+   "報名截止8月25日下午5點，採線上表單報名",
+   "課程議程可下載，詳情聯絡李小姐電話03-3196200轉2646"
+  ],
+  "audience": "新進醫師（申請臨床指導教師資格認證）或展延醫師（申請教學技能培育課程）",
+  "action": "於8月25日下午5點前透過線上表單完成報名",
+  "deadline": "2026-08-25",
+  "effective": "2026-08-30",
+  "course": {
+   "name": "中醫臨床教學實務訓練課程",
+   "organizer": "長庚醫療財團法人林口長庚紀念醫院",
+   "start": "2026-08-30",
+   "end": "2026-08-30",
+   "time": "08:20-17:00",
+   "location": "林口長庚紀念醫院醫學大樓1樓第二會議室（桃園市龜山區復興街5號）",
+   "online": false,
+   "mode": "實體",
+   "restriction": "新進醫師（申請臨床指導教師資格認證）或展延醫師（申請教學技能培育課程）",
+   "credits": null,
+   "fee": null,
+   "registerUrl": "https://forms.gle/UH5bHjprVXEV9zB37",
+   "registerDeadline": "2026-08-25",
+   "regions": null,
+   "project": null,
+   "sessions": null
+  }
  }
 }

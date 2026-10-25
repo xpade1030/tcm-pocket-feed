@@ -36,6 +36,8 @@ jobs:
         run: echo "請只回覆 OK 兩個字" | claude -p --model haiku --max-turns 1 --tools ""
       - name: 抓取全聯會公告
         run: python scripts/fetch_twtm.py > raw/run.log 2>&1 || (cat raw/run.log; exit 1)
+      - name: 抓取醫學教育學會公告（師培）
+        run: python scripts/fetch_taecm.py >> raw/run.log 2>&1 || (tail -20 raw/run.log; exit 1)
       - name: AI 整理新公告與年度計畫比對
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}

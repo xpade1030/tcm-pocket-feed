@@ -26,7 +26,7 @@ LIST_RE = re.compile(r"名單|名冊")   # 承作／受訓名單：不花 AI，�
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("enrich")
 
-PROMPT = """你是台灣中醫臨床的編輯，讀者是忙碌的醫院與診所中醫師。請把下面這則「中華民國中醫師公會全國聯合會」公告整理成 JSON。
+PROMPT = """你是台灣中醫臨床的編輯，讀者是忙碌的醫院與診所中醫師。請把下面這則「{source}」公告整理成 JSON。
 
 規則：
 1. topics：依內容客觀歸類（不要判斷重要性），可複選 1～2 個，只能用以下代號：
@@ -140,7 +140,7 @@ TODAY_HINT = "今天是 {today}。points 與 action 只寫仍有效的資訊：�
 
 def build_prompt(n):
     links = "\n".join(f"- {a['label']}：{a['url']}" for a in (n.get("attachments") or [])) or "（無）"
-    prompt = PROMPT.replace("{category}", n["category"]).replace("{date}", n.get("date") or "") \
+    prompt = PROMPT.replace("{source}", n.get("source") or "中華民國中醫師公會全國聯合會").replace("{category}", n["category"]).replace("{date}", n.get("date") or "") \
         .replace("{title}", n["title"]).replace("{body}", (n.get("body") or "（無內文，只有附件）")[:5000]).replace("{links}", links)
     prompt = TODAY_HINT.format(today=datetime.now(TW).strftime("%Y-%m-%d")) + prompt
     return prompt, n["title"] + "\n" + (n.get("body") or "") + "\n" + links
@@ -219,7 +219,7 @@ def main():
         if e and course_expired(e.get("course"), today):
             dropped["expired"] += 1
             continue
-        item = {"id": n["id"], "category": n["category"], "section": n.get("section") or "公告", "date": n.get("date"),
+        item = {"id": n["id"], "source": n.get("source"), "category": n["category"], "section": n.get("section") or "公告", "date": n.get("date"),
                 "url": n["url"], "origTitle": n["title"], "attachments": n.get("attachments") or [],
                 "ai": e, "status": "ok" if e else "pending"}
         if n["id"] in diffs:

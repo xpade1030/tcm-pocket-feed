@@ -352,5 +352,22 @@
  "taecm-406:0d01e61c6c2c": {
   "items": [],
   "note": null
+ },
+ "4201:2995aaebb7f5": {
+  "items": [
+   {
+    "system": "pgy",
+    "type": "行政",
+    "amount": 1,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "衛生",
+    "amount": 5,
+    "unit": "學時"
+   }
+  ],
+  "note": "影音課程無繼續教育學分，僅具專案認證資格（原文未寫明認證時數）"
  }
 }

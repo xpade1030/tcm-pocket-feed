@@ -4364,5 +4364,38 @@
    "project": "中醫門診總額特定門診專案計畫、中醫門診總額西醫住院暨醫院專案計畫",
    "sessions": null
   }
+ },
+ "4203:a8688236712b": {
+  "topics": [
+   "policy"
+  ],
+  "hidden": false,
+  "title": "中藥檳榔與半天筍經醫師處方使用無須恐慌",
+  "points": [
+   "新聞稿指出，中藥材「檳榔」及非食材「半天筍」若經醫師處方用藥，無須恐慌。",
+   "詳細說明請見公會新聞稿附件（PDF）。"
+  ],
+  "audience": null,
+  "action": null,
+  "deadline": null,
+  "effective": null,
+  "course": null
+ },
+ "4202:239ba87ac3dc": {
+  "topics": [
+   "policy"
+  ],
+  "hidden": false,
+  "title": "公會嚴正聲明：回應涉詐保媒體報導",
+  "points": [
+   "全國聯合會就媒體報導涉詐保事件發表嚴正聲明",
+   "聲明重點在捍衛醫學倫理與醫療品質",
+   "強調違法行為勿枉勿縱，目的是健全中醫醫療環境"
+  ],
+  "audience": null,
+  "action": null,
+  "deadline": null,
+  "effective": null,
+  "course": null
  }
 }

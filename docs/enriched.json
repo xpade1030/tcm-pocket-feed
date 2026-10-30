@@ -4397,5 +4397,42 @@
   "deadline": null,
   "effective": null,
   "course": null
+ },
+ "4206:da9e81fe6a62": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "南區中藥用藥安全與感控針灸SOP影音課程",
+  "points": [
+   "12/06於台南市中醫師公會現場觀看影片上課，中藥用藥安全與感控針灸SOP可分開報名。",
+   "可申請負責醫師基本訓練學時，但無繼續教育學分，僅具認證資格。",
+   "名額限25名，11/23截止報名，額滿將提前截止。"
+  ],
+  "audience": null,
+  "action": "於11/23前至報名連結報名，並匯款繳費後填寫報名表。",
+  "deadline": "2026-11-23",
+  "effective": null,
+  "course": {
+   "name": "中藥用藥安全、感控針灸SOP影音課程",
+   "organizer": null,
+   "start": null,
+   "end": null,
+   "time": "中藥用藥安全09:00-11:00（8:30報到）；感控針灸SOP 11:30-17:00（11:00報到）",
+   "location": "台南市中醫師公會2樓會議室",
+   "online": false,
+   "mode": "實體",
+   "restriction": null,
+   "credits": "無繼續教育學分；可申請負責醫師基本訓練學時：感控針灸課程（感染控制3學時、醫療品質1學時），中藥安全課程（醫療法規1學時、醫務行政1學時）",
+   "fee": "中藥用藥安全500元；感控針灸SOP 800元",
+   "registerUrl": "https://reurl.cc/YmKk2D",
+   "registerDeadline": "2026-11-23",
+   "regions": [
+    "南區"
+   ],
+   "project": "中藥用藥安全、感控暨針灸SOP",
+   "sessions": null
+  }
  }
 }

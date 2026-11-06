@@ -4434,5 +4434,65 @@
    "project": "中藥用藥安全、感控暨針灸SOP",
    "sessions": null
   }
+ },
+ "4207:8226b04352bb": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "中藥用藥安全與針灸感控影音課程（11/29高雄）",
+  "points": [
+   "11/29於高雄會館辦理兩場影音課程，須事先線上報名，不受理現場報名。",
+   "須親至會館觀看影片，無法申請繼續教育學分，可申請負責醫師基本訓練學時。",
+   "院所內專任醫師均須參加相關課程，院所通過審查認證才能領取品質保證保留款。"
+  ],
+  "audience": "中醫醫療院所及其專任醫師",
+  "action": "尚未申請用藥安全或針灸感控的院所，請於本年底前以院所為單位向全聯會申請。",
+  "deadline": null,
+  "effective": null,
+  "course": {
+   "name": "中藥用藥安全管理及品質提升、中醫醫療院所加強感染控制與針灸標準作業程序（影音課程）",
+   "organizer": "中執會高屏分會",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "time": "上午 09:00-11:00（08:30 報到）；下午 11:30-17:00（11:00 報到）",
+   "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
+   "online": false,
+   "mode": "實體",
+   "restriction": null,
+   "credits": "可申請負責醫師基本訓練課程學時；無法申請繼續教育學分",
+   "fee": null,
+   "registerUrl": "https://reurl.cc/aEWmE9",
+   "registerDeadline": null,
+   "regions": [
+    "高屏區"
+   ],
+   "project": "中藥用藥安全、感控暨針灸 SOP",
+   "sessions": [
+    {
+     "region": "高屏區",
+     "date": "2026-11-29",
+     "time": "09:00-11:00（08:30 報到）",
+     "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": "https://reurl.cc/aEWmE9",
+     "contact": null,
+     "note": "中藥用藥安全管理及品質提升影音課程，請事先報名"
+    },
+    {
+     "region": "高屏區",
+     "date": "2026-11-29",
+     "time": "11:30-17:00（11:00 報到）",
+     "location": "高雄市中醫師公會會館（高雄市鼓山區明華路251號5樓）",
+     "fee": null,
+     "registerDeadline": null,
+     "registerUrl": "https://reurl.cc/aEWmE9",
+     "contact": null,
+     "note": "中醫醫療院所加強感染控制與針灸標準作業程序影音課程"
+    }
+   ]
+  }
  }
 }

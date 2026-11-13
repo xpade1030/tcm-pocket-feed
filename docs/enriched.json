@@ -4532,5 +4532,42 @@
    "project": "三高",
    "sessions": null
   }
+ },
+ "4210:01a6e43f5918": {
+  "topics": [
+   "course",
+   "apply"
+  ],
+  "hidden": false,
+  "title": "南區中醫三高照護影音課程，12/20開課",
+  "points": [
+   "12月20日在台南市中醫師公會2樓會議室以影音課程方式上課，現場觀看影片。",
+   "可申請負責醫師基本訓練課程學時：醫務行政2、衛生政策2、實證醫學2學時。",
+   "報名費800元，12月4日截止報名。"
+  ],
+  "audience": null,
+  "action": "12月4日前透過報名表單完成報名並繳交800元費用。",
+  "deadline": "2026-12-04",
+  "effective": null,
+  "course": {
+   "name": "中醫三高病人加強照護方案影音課程",
+   "organizer": null,
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "time": null,
+   "location": "台南市中醫師公會2樓會議室",
+   "online": false,
+   "mode": "實體",
+   "restriction": null,
+   "credits": "負責醫師基本訓練課程學時：醫務行政2學時、衛生政策2學時、實證醫學2學時",
+   "fee": "800元",
+   "registerUrl": "https://forms.gle/DVjBfSRqU6pHpkdX9",
+   "registerDeadline": "2026-12-04",
+   "regions": [
+    "南區"
+   ],
+   "project": "三高",
+   "sessions": null
+  }
  }
 }

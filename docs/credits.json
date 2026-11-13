@@ -444,5 +444,28 @@
    }
   ],
   "note": "影音課程依全聯會規定無法申請繼續教育積分，僅可申請PGY學時。"
+ },
+ "4210:f3a5b3e3fe31": {
+  "items": [
+   {
+    "system": "pgy",
+    "type": "行政",
+    "amount": 2,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "衛生",
+    "amount": 2,
+    "unit": "學時"
+   },
+   {
+    "system": "pgy",
+    "type": "實證",
+    "amount": 2,
+    "unit": "學時"
+   }
+  ],
+  "note": null
  }
 }

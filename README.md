@@ -9,3 +9,7 @@ https://xpade1030.github.io/tcm-pocket-feed/notices.json
 - `raw/`：最近一次執行的 log
 
 內容版權屬原發布單位，本資料源僅整理標題、日期、內文與原文連結，供 App 顯示並導向原網頁。
+
+## 人工修訂的 AI 摘要
+
+`docs/enriched.json` 以「編號:內文雜湊」為鍵快取，原文不變就不重跑 AI，因此可直接手改。若原公告內文或附件清單變動，雜湊改變，`enrich.py` 會重新產生摘要、蓋掉手改內容，需重新核對。目前手改過：4203、4026、4079、4027（2026-11-22，依原文 PDF 核對）。改完跑 `python scripts/enrich.py --ids <編號>` 重建 `docs/digest.json`（快取命中，不會呼叫 AI）。
